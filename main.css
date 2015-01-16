@@ -1,0 +1,177 @@
+.landing_page {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background-image: url(C:/Users/Fan/Desktop/Backgrounds/Darker_bg.jpg);
+    min-height: 100%;
+    min-width: 100px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-color: #2c3e50;
+}
+
+.landing_block {
+    min-height: 100px;
+    max-height: 45%;
+    padding: 5px;
+    height:auto;
+    position: relative;
+}
+
+.text {
+    font-family: Open Sans Condensed;
+    font-size: 5vmin;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px #2c3e50;
+}
+
+.title {
+    margin-top: 10%;
+    text-transform: uppercase;
+    /*font-size: 200%;*/
+}
+
+.text a:link {
+    font-family: Open Sans Condensed;
+    font-size: 5vmin;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px #2c3e50;
+    text-decoration: none;
+}
+
+.text a:visited {
+    font-family: Open Sans Condensed;
+    font-size: 5vmin;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px #2c3e50;
+    text-decoration: none;
+}
+
+.text a:hover, a:focus {
+    font-family: Open Sans Condensed;
+    font-size: 5vmin;
+    text-align: center;
+    color: #27ae60;
+    text-shadow: 1px 1px #2c3e50;
+    text-decoration: none;
+}
+
+.text a:active {
+    font-family: Open Sans Condensed;
+    font-size: 5vmin;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px #2c3e50;
+    text-decoration: none;
+}
+
+td {
+    position: inherit;
+    width: 100px;
+    align-content: center; 
+}
+
+.social_buttons {
+    color: white;
+    text-shadow: 1px 1px #2c3e50;
+}
+
+/*Links for linkedin*/
+
+a.linkedin:link {
+    color: white;
+}
+
+a.linkedin:visited {
+    color: white;
+}
+
+a.linkedin:hover, a.linkedin:focus {
+    color: #007bb6;
+}
+
+a.linkedin:active {
+    color: white;
+}
+
+/*Links for github*/
+
+a.github:link {
+    color: white;
+}
+
+a.github:visited {
+    color: white;
+}
+
+a.github:hover, a.github:focus {
+    color: #252126;
+}
+
+a.github:active {
+    color: white;
+}
+
+/*Links for twitter*/
+
+a.twitter:link {
+    color: white;
+}
+
+a.twitter:visited {
+    color: white;
+}
+
+a.twitter:hover, a.twitter:focus {
+    color: #33CCFF;
+}
+
+a.twitter:active {
+    color: white;
+};
+
+/*Links for aboutme*/
+
+a.aboutme:link {
+    color: white;
+}
+
+a.aboutme:visited {
+    color: white;
+}
+
+a.aboutme:hover, a.aboutme:focus {
+    color: #f39c12;
+}
+
+a.aboutme:active {
+    color: white;
+}
+
+/*Links for email*/
+
+a.email:link {
+    color: white;
+}
+
+a.email:visited {
+    color: white;
+}
+
+a.email:hover, a.email:focus {
+    color: #ecf0f1;
+}
+
+a.email:active {
+    color: white;
+}
