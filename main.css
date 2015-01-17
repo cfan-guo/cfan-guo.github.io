@@ -5,16 +5,18 @@
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
-    background-image: url(https://cloud.githubusercontent.com/assets/7504623/5771459/98e7cc6a-9d0b-11e4-86e3-b4a6f6e25b8e.jpg);
-    min-height: 100%;
-    min-width: 100px;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    background-image: url(https://cloud.githubusercontent.com/assets/7504623/5789395/c051787e-9e36-11e4-8270-f8ffe37f6ad9.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-color: #27ae60;
+    position:fixed;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
 }
 
 .landing_block {
@@ -30,13 +32,17 @@
     font-size: 5vmin;
     text-align: center;
     color: white;
-    text-shadow: 1px 1px #2c3e50;
 }
 
 .title {
     margin-top: 10%;
     text-transform: uppercase;
+    text-shadow: 1px 1px #2c3e50;
     /*font-size: 200%;*/
+}
+
+.subhead {
+    text-shadow: 1px 1px #2c3e50;
 }
 
 .text a:link {
@@ -44,7 +50,6 @@
     font-size: 5vmin;
     text-align: center;
     color: white;
-    text-shadow: 1px 1px #2c3e50;
     text-decoration: none;
 }
 
@@ -53,7 +58,6 @@
     font-size: 5vmin;
     text-align: center;
     color: white;
-    text-shadow: 1px 1px #2c3e50;
     text-decoration: none;
 }
 
@@ -62,7 +66,6 @@
     font-size: 5vmin;
     text-align: center;
     color: #bdc3c7;
-    text-shadow: 1px 1px #2c3e50;
     text-decoration: none;
 }
 
@@ -71,7 +74,6 @@
     font-size: 5vmin;
     text-align: center;
     color: white;
-    text-shadow: 1px 1px #2c3e50;
     text-decoration: none;
 }
 
@@ -83,7 +85,6 @@ td {
 
 .social_buttons {
     color: white;
-    text-shadow: 1px 1px #2c3e50;
 }
 
 /*Links for linkedin*/
