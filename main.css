@@ -3,6 +3,7 @@ body {
   background-color: #2ABB9B;
   color: white;
   font-family: 'Inconsolata';
+  overflow: hidden;
 }
 
 h1 {
@@ -10,15 +11,33 @@ h1 {
   text-align: center;
 }
 
+ul {
+  list-style-type:none;
+}
+
+li {
+  line-height:90%;
+}
+
+.singtab {
+  text-indent:2em;
+}
+
+.dubtab {
+  text-indent:4em;
+}
+
 .terminal-window {
   background-color: #BDC3C7;
   padding: 5 10 10 10;
+  overflow: hidden;
 }
 
 .terminal {
   background-color: #22313F;
+  height:60%;
   padding: 10 10 10 10;
-  
+  overflow-y: scroll;
 }
 
 .comment {
@@ -30,3 +49,12 @@ h1 {
   text-decoration: none;
 }
 
+.contact {
+  color:white;
+  text-decoration:none; 
+}
+
+a:hover.contact {
+  color:white;
+  text-decoration:none;
+}
