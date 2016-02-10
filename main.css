@@ -1,178 +1,32 @@
-.landing_page {
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-    background-image: url(http://i1297.photobucket.com/albums/ag28/cf_guo/101_9005_retouched_dark_zpszf3vnimj.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #27ae60;
-    position:fixed;
-    position:absolute;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
+/*Ugh add things*/
+body {
+  background-color: #2ABB9B;
+  color: white;
+  font-family: 'Inconsolata';
 }
 
-.landing_block {
-    min-height: 100px;
-    max-height: 45%;
-    padding: 5px;
-    height:auto;
-    position: relative;
+h1 {
+  padding: 10 10 10 10;
+  text-align: center;
 }
 
-.text {
-    font-family: Open Sans Condensed;
-    font-size: 5vmin;
-    text-align: center;
-    color: white;
+.terminal-window {
+  background-color: #BDC3C7;
+  padding: 5 10 10 10;
 }
 
-.title {
-    margin-top: 10%;
-    text-transform: uppercase;
-    text-shadow: 1px 1px #2c3e50;
-    /*font-size: 200%;*/
+.terminal {
+  background-color: #22313F;
+  padding: 10 10 10 10;
+  
 }
 
-.subhead {
-    text-shadow: 1px 1px #2c3e50;
+.comment {
+  color: #BDC3C7;
 }
 
-.text a:link {
-    font-family: Open Sans Condensed;
-    font-size: 5vmin;
-    text-align: center;
-    color: white;
-    text-decoration: none;
+.club {
+  color: #4183D7;
+  text-decoration: none;
 }
 
-.text a:visited {
-    font-family: Open Sans Condensed;
-    font-size: 5vmin;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-}
-
-.text a:hover, a:focus {
-    font-family: Open Sans Condensed;
-    font-size: 5vmin;
-    text-align: center;
-    color: #bdc3c7;
-    text-decoration: none;
-}
-
-.text a:active {
-    font-family: Open Sans Condensed;
-    font-size: 5vmin;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-}
-
-td {
-    position: inherit;
-    width: 100px;
-    align-content: center; 
-}
-
-.social_buttons {
-    color: white;
-}
-
-/*Links for linkedin*/
-
-a.linkedin:link {
-    color: white;
-}
-
-a.linkedin:visited {
-    color: white;
-}
-
-a.linkedin:hover, a.linkedin:focus {
-    color: #007bb6;
-}
-
-a.linkedin:active {
-    color: white;
-}
-
-/*Links for github*/
-
-a.github:link {
-    color: white;
-}
-
-a.github:visited {
-    color: white;
-}
-
-a.github:hover, a.github:focus {
-    color: #252126;
-}
-
-a.github:active {
-    color: white;
-}
-
-/*Links for twitter*/
-
-a.twitter:link {
-    color: white;
-}
-
-a.twitter:visited {
-    color: white;
-}
-
-a.twitter:hover, a.twitter:focus {
-    color: #33CCFF;
-}
-
-a.twitter:active {
-    color: white;
-};
-
-/*Links for aboutme*/
-
-a.aboutme:link {
-    color: white;
-}
-
-a.aboutme:visited {
-    color: white;
-}
-
-a.aboutme:hover, a.aboutme:focus {
-    color: #f39c12;
-}
-
-a.aboutme:active {
-    color: white;
-}
-
-/*Links for email*/
-
-a.email:link {
-    color: white;
-}
-
-a.email:visited {
-    color: white;
-}
-
-a.email:hover, a.email:focus {
-    color: #ecf0f1;
-}
-
-a.email:active {
-    color: white;
-}
