@@ -1,4 +1,4 @@
 Fan-Website
 ===========
 
-Personal website for Fan (Cadence) Guo.
+Personal website for Cadence F. Guo. 
