@@ -1,4 +1,11 @@
 /*Ugh add things*/
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
 body {
   background-color: #2ABB9B;
   color: white;
