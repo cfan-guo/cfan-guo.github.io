@@ -1,9 +1,8 @@
-/*Ugh add things*/
-@import url(http://weloveiconfonts.com/api/?family=zocial);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
 
-/* zocial */
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
+/* entypo */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
 }
 
 body {
@@ -58,10 +57,12 @@ li {
 
 .contact {
   color:white;
-  text-decoration:none; 
+  text-decoration:none;
+  padding-left:2%;
+  padding-right:2%;
 }
 
 a:hover.contact {
-  color:white;
+  color:#BDC3C7;
   text-decoration:none;
 }
