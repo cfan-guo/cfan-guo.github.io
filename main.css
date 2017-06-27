@@ -7,13 +7,13 @@
 
 body {
   background-color: #2ABB9B;
-  color: white;
+  color: #FFFFFF;
   font-family: 'Inconsolata';
   overflow: hidden;
 }
 
 h1 {
-  padding: 10 10 10 10;
+  padding: 10px;
   text-align: center;
 }
 
@@ -24,6 +24,10 @@ ul {
 li {
   line-height:90%;
 }
+
+.container {
+  margin-top: 8%;
+ }
 
 .singtab {
   text-indent:2em;
@@ -41,8 +45,8 @@ li {
 
 .terminal {
   background-color: #22313F;
-  height:60%;
-  padding: 10 10 10 10;
+  height: 60%;
+  padding: 10px;
   overflow-y: scroll;
 }
 
@@ -57,12 +61,12 @@ li {
 
 .contact {
   color:white;
-  text-decoration:none;
+  text-decoration: none;
   padding-left:2%;
   padding-right:2%;
 }
 
 a:hover.contact {
   color:#BDC3C7;
-  text-decoration:none;
+  text-decoration: none;
 }
