@@ -1,72 +1,27 @@
-@import url(http://weloveiconfonts.com/api/?family=entypo);
-
-/* entypo */
-[class*="entypo-"]:before {
-    font-family: 'entypo', sans-serif;
-}
-
 body {
-  background-color: #2ABB9B;
-  color: #FFFFFF;
-  font-family: 'Inconsolata';
-  overflow: hidden;
+  font-family: 'Quattrocento Sans', sans-serif;
 }
 
-h1 {
-  padding: 10px;
-  text-align: center;
+.f-disclaimer {
+  color: #96281B;
 }
 
-ul {
-  list-style-type:none;
-}
-
-li {
-  line-height:90%;
-}
-
-.container {
-  margin-top: 8%;
- }
-
-.singtab {
-  text-indent:2em;
-}
-
-.dubtab {
-  text-indent:4em;
-}
-
-.terminal-window {
-  background-color: #BDC3C7;
-  padding: 5 10 10 10;
-  overflow: hidden;
-}
-
-.terminal {
-  background-color: #22313F;
-  height: 60%;
-  padding: 10px;
-  overflow-y: scroll;
-}
-
-.comment {
-  color: #BDC3C7;
-}
-
-.club {
-  color: #4183D7;
+a {
+  font-weight: 700;
+  color: #446CB3;
   text-decoration: none;
 }
 
-.contact {
-  color:white;
-  text-decoration: none;
-  padding-left:2%;
-  padding-right:2%;
+.f-container {
+
 }
 
-a:hover.contact {
-  color:#BDC3C7;
-  text-decoration: none;
+.f-about {
+}
+
+.f-contact {
+}
+
+.f-club {
+
 }
