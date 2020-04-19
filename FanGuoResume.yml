@@ -1,0 +1,68 @@
+---
+Contact:
+  Name: Fan Guo
+  Website: cfanguo.me
+  Email: hello@cfanguo.me
+  Github: github.com/cfan-guo
+  LinkedIn: linkedin.com/in/cfanguo
+Experience:
+- Company: 'Connected'
+  Website: https://www.connected.io/
+  Date: July 2018 – Present
+  Position: 'Software Engineer + Engineering Manager'
+  Experience: Product-focused web engineer and team lead with a background on collaborating
+    on guild initiatives and hosting technical discussions in addition to managing
+    direct reports.
+- Company: 'Flipp'
+  Website: https://corp.flipp.com/
+  Date: May 2016 – Aug 2017
+  Position: 'Junior Software Engineer'
+  Experience: Built and delivered customized desktop and mobile flyer themes and dynamic
+    content for Canadian and US retailers on Flipp’s hosted platform using Ruby on
+    Rails, JavaScript, HTML and Sass.
+Projects:
+- Host: 4th Year Design Project
+  Name: 'PillPal: an IoT multi-pill dispenser and management tool'
+  Date: 2017 – 2018
+  Stack:
+  - ASP.NET Core
+  - C#
+  - ReactJS
+  Description: Developed and prototyped an application and devices to improve medication adherence
+    in the elderly, with a focus on accessibility.
+- Host: Flipp Internal Hackathon
+  Name: 'Onboarding script'
+  Date: July 2016
+  Stack:
+  - BASH
+  Description: Compiled commands and setup instructions into a script that allowed
+    the user to quickly set up a Ruby on Rails development environment to reduce
+    average set up time by 80%
+Honours:
+- Name: 'CNIB Hochhausen Prize for Excellence in Accessible Design in Engineering for People who are 
+    Blind or Partially Sighted'
+  Date: April 2018
+  Description: Presented by the University of Toronto and CNIB for incorporating accessibility into the 
+    design of our project “PillPal: an IoT multi-pill dispenser and management tool”
+- Name: 'Certificate of Distinction for Excellence in Design Project'
+  Date: April 2018
+  Description: Selected to present at the ECE Final Design Showcase and ECE 4th Year and Alumni Celebration event 
+    for our project “PillPal: an IoT multi-pill dispenser and management tool”
+- Name: 'Engineering Athletics Association: Julie Wilkinson Award'
+  Date: March 2018
+  Description: Awarded to a graduating student in engineering for achievement in intramural athletics
+- Name: 'Huawei Seeds for the Future, Canadian Delegate'
+  Date: May 2016
+  Description: One of 18 delegates across Canada for an immersive two-week cultural and technical 
+  	lab program in China to understand the roles of Canada and China in the global ICT market
+Education:
+- School: University of Toronto, St. George Campus
+  Degree: 'Bachelor of Applied Sciences in Computer Engineering'
+  Date: 2013 – 2018
+  Activities:
+  - New College Residence Don
+  - Skule’s Got Talent
+  - University of Toronto Engineering Orientation
+  - University of Toronto Iron Dragons Dragonboat Team
+  - Skule Intramural Volleyball
+  - Skule Intramural Ultimate Frisbee
