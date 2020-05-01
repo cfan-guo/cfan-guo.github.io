@@ -1,0 +1,44 @@
+.history__content {
+    width: 70%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+  }
+
+.history__content hr {
+    margin: 10px 0 20px 0;
+}
+
+.history__cards {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+@media(max-width: 1105px) {
+    .history__content {
+        width: 75%;
+    }
+  }
+
+@media(max-width: 1030px) {
+    .history__content {
+        width: 80%;
+    }
+  }
+
+@media(max-width: 970px) {
+    .history__content {
+        width: 90%;
+    }
+}
+
+@media(max-width: 720px) {
+    .history__content {
+        width: 99%;
+    }
+}
