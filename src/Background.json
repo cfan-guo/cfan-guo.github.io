@@ -1,168 +1,168 @@
 {
-    "profile": {
-        "bio": {
-            "name": "Fan Guo",
-            "stats": [
-                {
-                    "number": "14",
-                    "value": "countries ✈️"
-                },
-                {
-                    "number": "2",
-                    "value": "languages 🗣️"
-                },
-                {
-                    "number": "4",
-                    "value": "languages 💻"
-                }
-            ],
-            "description": [
-                "✨ product-focused web engineer 👩🏻‍💻 and engineering manager 👩🏻‍💼",
-                "⬇️ check out my VR room! ⬇️"
-            ],
-            "website": "http://cfanguo.me/vr"
+  "profile": {
+    "bio": {
+      "name": "Fan Guo",
+      "stats": [
+        {
+          "number": "14",
+          "value": "countries ✈️"
         },
-        "social": [
-            {
-                "platform": "LinkedIn",
-                "url": "https://linkedin.com/in/cfanguo",
-                "icon": "linkedin",
-                "color": "#0077b5"
-            },
-            {
-                "platform": "Github",
-                "url": "https://github.com/cfan-guo",
-                "icon": "github",
-                "color": "#24292e"
-            },
-            {
-                "platform": "Twitter",
-                "url": "https://twitter.com/gofango",
-                "icon": "twitter",
-                "color": "#1da1f2"
-            },
-            {
-                "platform": "Instagram",
-                "url": "https://www.instagram.com/cfan.guo/",
-                "icon": "instagram",
-                "color": "#ed4956"
-            }
-        ],
-        "resume": "http://resume.cfanguo.me",
-        "email": "mailto:hello@cfanguo.me"
+        {
+          "number": "2",
+          "value": "languages 🗣️"
+        },
+        {
+          "number": "4",
+          "value": "languages 💻"
+        }
+      ],
+      "description": [
+        "✨ product-focused web engineer 👩🏻‍💻 and engineering manager 👩🏻‍💼",
+        "⬇️ check out my VR room! ⬇️"
+      ],
+      "website": "http://cfanguo.me/vr"
     },
-    "experience": [
-        {
-            "tag": "connected",
-            "heading": "Connected",
-            "url": "https://www.connected.io/",
-            "dateRange": "July 2018 – Present",
-            "subtitle": "software Engineer and Engineering Manager",
-            "description": "In addition to my responsibilities as an engineer, I am a house captain in Connected's house system, I captain the Connected volleyball team and I used to run a recurring remote trivia quiz show. I also help plan engineering guild initiatives and Connected's Labs program, as well as recruiting efforts."
-        },
-        {
-            "tag": "flipp",
-            "heading": "Flipp",
-            "url": "https://flipp.com/",
-            "dateRange": "May 2016 – Aug 2017",
-            "subtitle": "Junior Software Engineer",
-            "description": "I worked on the Retailer Excellence team as part of the Hosted Platform, which was responsible for creating the flyer framework that lives on retailer websites. Since I had many of the same responsibilities as a full time employee, I also helped with onboarding new engineers and attending recruitment events."
-        }
+    "social": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/cfanguo",
+        "icon": "linkedin",
+        "color": "#0077b5"
+      },
+      {
+        "platform": "Github",
+        "url": "https://github.com/cfan-guo",
+        "icon": "github",
+        "color": "#24292e"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/gofango",
+        "icon": "twitter",
+        "color": "#1da1f2"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/cfan.guo/",
+        "icon": "instagram",
+        "color": "#ed4956"
+      }
     ],
-    "projects": [
-        {
-            "tag": "vr",
-            "heading": "Extended reality web portfolio",
-            "dateRange": "2020",
-            "subtitle": "A-Frame",
-            "description": "Developed a simple workspace with item interactions for AR/ VR and desktop/ mobile. 3D assets were created using TinkerCAD and Blender."
-        },
-        {
-            "tag": "pillpal",
-            "heading": "PillPal: an IoT multi-pill dispenser and management tool",
-            "dateRange": "2017 – 2018",
-            "subtitle": "ASP.NET Core, C#, ReactJS",
-            "description": "Developed a consumer focused hardware and software solution to improve medication adherence in the elderly. We were selected for the CNIB Hochhausen Prize for Excellence in Accessible Design in Engineering for People who are Blind or Partially Sighted as well as Certificate of Distinction for Excellence in Design Project."
-        },
-        {
-            "tag": "yhack",
-            "heading": "Smart Charger @ YHack 2016",
-            "dateRange": "November 2016",
-            "subtitle": "Android, Arduino",
-            "description": "Our team of two worked on creating a hardware controlled Android application that would monitor a phone's battery level to stop charging at a user-selected percentage."
-        },
-        {
-            "tag": "obscript",
-            "heading": "Onboarding script @ Flipp's Internal Hackathon",
-            "dateRange": "July 2016",
-            "subtitle": "bASH",
-            "description": "we compiled commands and setup instructions into a script that allowed the user to quickly set up a Ruby on Rails development environment, which reduced average set up time by 80% (a week)."
-        }
-    ],
-    "activities": [
-        {
-            "tag": "huawei",
-            "heading": "Huawei Seeds for the Future, Canadian Delegate",
-            "dateRange": "May 2016",
-            "url": "https://www.huawei.com/ca/about-huawei/corporate-citizenship/seeds-for-the-Future",
-            "subtitle": "",
-            "description": "One of 18 delegates across Canada for an immersive two-week cultural and technical lab program in China to understand the roles of Canada and China in the global ICT market."
-        },
-        {
-            "tag": "sports",
-            "heading": "Huawei Seeds for the Future, Canadian Delegate",
-            "dateRange": "Forever",
-            "url": "",
-            "subtitle": "Volleyball, Ultimate Frisbee, Dragonboat, Fitness",
-            "description": "I love keeping active, though nowadays, I mostly just lift heavy things and play volleyball (court and beach). I did dragonboat for two years and played intramural volleyball and ultimate frisbee throught high school and university. In fact, in my graduating year, I received the Julie Wilkinson Award for the Engineering Athletics Association for achievement in intramural athletics."
-        }
-    ],
-    "education": [
-        {
-            "tag": "uoft",
-            "heading": "University of Toronto, St. George Campus",
-            "dateRange": "2013 – 2018",
-            "url": "https://www.ece.utoronto.ca/",
-            "subtitle": "bachelor of Applied Sciences in Computer Engineering",
-            "description": "During my undergrad, I was involved in many different of student life. I worked at the university as a residence don and in the engineering offices. I helped with engineering outreach and recruitment every year: from general volunteering, to being a panelist at events and being a residence advisor at the Girls Leadership in Engineering Experience weekend. I held leadership positions in various clubs and organizations, from the talent show to orientation week."
-        }
-    ],
-    "images": [
-        {
-            "src": "/images/connected.jpg",
-            "alt": "Drum set in front of a brick wall with coloured lights shining at it. The Connected logo is shone on the wall."
-        },
-        {
-            "src": "/images/flipp.jpg",
-            "alt": "Image of Fan standing in front of a background of repeating maple leaves and the Flipp logo, wearing a Canada flag headpiece."
-        },
-        {
-            "src": "/images/uoft.jpg",
-            "alt": "A group of graduates in graduation gowns standing on the grass against the background of University College at U of T."
-        },
-        {
-            "src": "/images/xr.jpg",
-            "alt": "Looking into the 3D model of a room from one corner, there is a desk with a laptop, monitor and keyboard setup. In the back there is a green couch and a shelf with items."
-        },
-        {
-            "src": "/images/pillpal.jpg",
-            "alt": "Four people in matching shirts around a poster board, laptop and pill bottles."
-        },
-        {
-            "src": "/images/smarger.jpg",
-            "alt": "Two students standing behind a laptop with the number 88 in front. Fan is on the right, holding a smartphone."
-        },
-        {
-            "src": "/images/obscript.jpg",
-            "alt": "A jelly donut against a backdrop of a laptop on a desk."
-        },
-        {
-            "src": "/images/huawei.jpg",
-            "alt": "Fan standing in front of a green fence against a backdrop of a mountain and the Great Wall of China."
-        },
-        {
-            "src": "/images/dragonboat.jpg",
-            "alt": "Closeup of a dragonboat with paddlers inside, holding up their paddles at an angle. Fan is wearing sunglasses and sticking her tongue out."
-        }
-    ]
+    "resume": "http://resume.cfanguo.me",
+    "email": "mailto:hello@cfanguo.me"
+  },
+  "experience": [
+    {
+      "tag": "connected",
+      "heading": "Connected",
+      "url": "https://www.connected.io/",
+      "date": "July 2018 – Present",
+      "subtitle": "software Engineer and Engineering Manager",
+      "description": "In addition to my responsibilities as an engineer, I am a house captain in Connected's house system, I captain the Connected volleyball team and I used to run a recurring remote trivia quiz show. I also help plan engineering guild initiatives and Connected's Labs program, as well as recruiting efforts."
+    },
+    {
+      "tag": "flipp",
+      "heading": "Flipp",
+      "url": "https://flipp.com/",
+      "date": "May 2016 – Aug 2017",
+      "subtitle": "Junior Software Engineer",
+      "description": "I worked on the Retailer Excellence team as part of the Hosted Platform, which was responsible for creating the flyer framework that lives on retailer websites. Since I had many of the same responsibilities as a full time employee, I also helped with onboarding new engineers and attending recruitment events."
+    }
+  ],
+  "projects": [
+    {
+      "tag": "vr",
+      "heading": "Extended reality web portfolio",
+      "date": "2020",
+      "subtitle": "A-Frame",
+      "description": "Developed a simple workspace with item interactions for AR/ VR and desktop/ mobile. 3D assets were created using TinkerCAD and Blender."
+    },
+    {
+      "tag": "pillpal",
+      "heading": "PillPal: an IoT multi-pill dispenser and management tool",
+      "date": "2017 – 2018",
+      "subtitle": "ASP.NET Core, C#, ReactJS",
+      "description": "Developed a consumer focused hardware and software solution to improve medication adherence in the elderly. We were selected for the CNIB Hochhausen Prize for Excellence in Accessible Design in Engineering for People who are Blind or Partially Sighted as well as Certificate of Distinction for Excellence in Design Project."
+    },
+    {
+      "tag": "yhack",
+      "heading": "Smart Charger @ YHack 2016",
+      "date": "November 2016",
+      "subtitle": "Android, Arduino",
+      "description": "Our team of two worked on creating a hardware controlled Android application that would monitor a phone's battery level to stop charging at a user-selected percentage."
+    },
+    {
+      "tag": "obscript",
+      "heading": "Onboarding script @ Flipp's Internal Hackathon",
+      "date": "July 2016",
+      "subtitle": "BASH",
+      "description": "We compiled commands and setup instructions into a script that allowed the user to quickly set up a Ruby on Rails development environment, which reduced average set up time by 80% (a week)."
+    }
+  ],
+  "activities": [
+    {
+      "tag": "huawei",
+      "heading": "Huawei Seeds for the Future, Canadian Delegate",
+      "date": "May 2016",
+      "url": "https://www.huawei.com/ca/about-huawei/corporate-citizenship/seeds-for-the-Future",
+      "subtitle": "",
+      "description": "One of 18 delegates across Canada for an immersive two-week cultural and technical lab program in China to understand the roles of Canada and China in the global ICT market."
+    },
+    {
+      "tag": "sports",
+      "heading": "Huawei Seeds for the Future, Canadian Delegate",
+      "date": "Forever",
+      "url": "",
+      "subtitle": "Volleyball, Ultimate Frisbee, Dragonboat, Fitness",
+      "description": "I love keeping active, though nowadays, I mostly just lift heavy things and play volleyball (court and beach). I did dragonboat for two years and played intramural volleyball and ultimate frisbee throught high school and university. In fact, in my graduating year, I received the Julie Wilkinson Award for the Engineering Athletics Association for achievement in intramural athletics."
+    }
+  ],
+  "education": [
+    {
+      "tag": "uoft",
+      "heading": "University of Toronto, St. George Campus",
+      "date": "2013 – 2018",
+      "url": "https://www.ece.utoronto.ca/",
+      "subtitle": "bachelor of Applied Sciences in Computer Engineering",
+      "description": "During my undergrad, I was involved in many different of student life. I worked at the university as a residence don and in the engineering offices. I helped with engineering outreach and recruitment every year: from general volunteering, to being a panelist at events and being a residence advisor at the Girls Leadership in Engineering Experience weekend. I held leadership positions in various clubs and organizations, from the talent show to orientation week."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/connected.jpg",
+      "alt": "Drum set in front of a brick wall with coloured lights shining at it. The Connected logo is shone on the wall."
+    },
+    {
+      "src": "/images/flipp.jpg",
+      "alt": "Image of Fan standing in front of a background of repeating maple leaves and the Flipp logo, wearing a Canada flag headpiece."
+    },
+    {
+      "src": "/images/uoft.jpg",
+      "alt": "A group of graduates in graduation gowns standing on the grass against the background of University College at U of T."
+    },
+    {
+      "src": "/images/xr.jpg",
+      "alt": "Looking into the 3D model of a room from one corner, there is a desk with a laptop, monitor and keyboard setup. In the back there is a green couch and a shelf with items."
+    },
+    {
+      "src": "/images/pillpal.jpg",
+      "alt": "Four people in matching shirts around a poster board, laptop and pill bottles."
+    },
+    {
+      "src": "/images/smarger.jpg",
+      "alt": "Two students standing behind a laptop with the number 88 in front. Fan is on the right, holding a smartphone."
+    },
+    {
+      "src": "/images/obscript.jpg",
+      "alt": "A jelly donut against a backdrop of a laptop on a desk."
+    },
+    {
+      "src": "/images/huawei.jpg",
+      "alt": "A group of students in hotel lobby, in front of a Huawei Seeds for the Future sign. The guys are standing or kneeling, and the girls are sitting on the floor."
+    },
+    {
+      "src": "/images/dragonboat.jpg",
+      "alt": "Closeup of a dragonboat with paddlers inside, holding up their paddles at an angle. Fan is wearing sunglasses and sticking her tongue out."
+    }
+  ]
 }

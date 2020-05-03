@@ -2,19 +2,18 @@ import React from 'react';
 import './Card.css';
 
 function Card({ image }) {
-    // let card = props.card; 
-    // when thing is clicked it should create popup with more details
+  // let card = props.card; 
+  // when thing is clicked it should create popup with more details
 
-    // onMouseEnter
+  // onMouseEnter
 
-    // onMouseLeave
+  // onMouseLeave
 
-    return (
-        // <div className={`card ${props.className}`}>
-        <div className="card">
-            <img className="card__img" alt={image.alt} src={image.src} />
-        </div>
-    );
+  return (
+    <div className="card">
+      <img className="card__img" alt={image.alt} src={image.src} />
+    </div>
+  );
 }
 
 export default Card;

@@ -1,0 +1,49 @@
+.resume {
+  height: 80vh;
+  padding: 10px 20px;
+  text-align: left;
+  overflow: scroll;
+  background-color: #f4f4f4;
+}
+
+.resume h4, .resume h3, .resume p {
+  margin: 5px 0;
+}
+
+.resume p, .resume li {
+  font-size: 13px;
+}
+
+.resume__section_content {
+  display: flex;
+}
+
+.resume__left_content {
+  width: 15%;
+  margin: 10px 5px;
+  color: #1375BD;
+}
+
+.resume__right_content {
+  width: 80%;
+}
+
+.resume__description li::before {
+  content: '\1F4BB';
+  margin-left: -30px;
+  margin-right: 10px;
+}
+
+.resume__download a {
+  font-size: 12px;
+  color: #76BD13;
+}
+
+.resume__list_hori {
+  margin-left: -30px;
+}
+
+.resume__list_hori li {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}

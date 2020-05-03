@@ -1,38 +1,24 @@
 .card {
-  /* width: 33.3%; */
-  flex-basis: 32.4%;
-  height: 25vw;
+  flex-basis: 32%;
+  height: 29vh;
   text-align: center;
   margin: 0.5vh;
   display: flex;
   object-fit: cover;
   border-radius: 10px;
   box-sizing: border-box;
+  background-color: #f1f1f1;
 }
 
 .card__img {
   width: 100%;
   object-fit: cover;
-  border-radius:10px;
+  border-radius: 10px;
 }
 
-.experience {
-  flex-basis: 49%;
-}
-
-.education {
-  flex-basis: 65.8%;
-}
-
-@media(max-width: 900px) {
+@media(max-width: 930px) {
   .card {
-    flex-basis: 32.4%;
-  }
-}
-
-@media(max-width: 830px) {
-  .card {
-    flex-basis: 49%;
+    flex-basis: 30%;
   }
 }
 

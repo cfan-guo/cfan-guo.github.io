@@ -1,39 +1,69 @@
 .badges {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
 .badges__badge {
-    margin: 30px 0 20px 50px;
+  margin-top: 15px;
 }
 
 .badges__badge p {
-    margin: 5px;
-    color: #000;
-    font-size: 13px;
+  margin: 5px;
+  color: #000;
+  font-size: 13px;
 }
 
 .badges__iconOutline {
-    border: 2px solid #ccb;
-    border-radius: 50%;
-    height: 70px;
-    width: 70px;
-    overflow: hidden;
+  border: 2px solid #ccb;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  overflow: hidden;
 }
 
 .badges__icon {
-    color: #fff;
-    object-fit: cover;
-    padding: 20px;
-    height: 30px;
-    width: 30px;
+  color: #fff;
+  object-fit: cover;
+  padding: 16px;
 }
 
-/* .badges__badage {
-    color: white;
-    background-color: "yellow";
-    
-} */
+@media(max-width: 830px) {
+  .badges {
+    justify-content: flex-start;
+  }
 
+  .badges__badge {
+    margin: 30px 0px 20px 45px;
+  }
+
+  .badges__iconOutline {
+    height: 70px;
+    width: 70px;
+  }
+
+  .badges__icon {
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media(max-width: 630px) {
+  .badges__badge {
+    margin: 10px 0px 15px 30px;
+  }
+
+  .badges__iconOutline {
+    height: 55px;
+    width: 55px;
+  }
+
+  .badges__icon {
+    padding: 13px;
+    width: 30px;
+    height: 30px;
+  }
+}

@@ -6,7 +6,7 @@ import History from './History';
 function App() {
   return (
     <div className="App">
-      {/* <Splash /> */}
+      <Splash />
       <History />
     </div>
   );
