@@ -81,12 +81,21 @@
 }
 
 @media(max-width: 630px) {
+  .profile__img {
+    margin-right: 15px;
+  }
+  
   .profile__img img {
     width: 125px;
     height: 125px;
   }
+
   .profile__stats {
     display: flex;
     flex-direction: column;
+  }
+
+  .profile__stats p {
+    margin-right: 10px;
   }
 }

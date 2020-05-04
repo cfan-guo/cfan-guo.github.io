@@ -7,9 +7,13 @@
   margin: 0 auto;
 }
 
-.history__profile {
+.history__side {
   width: 40vw;
   padding: 20px;
+}
+
+.history__profile {
+  width: 100%;
 }
 
 .history__main {
@@ -47,7 +51,7 @@
   border-top: 1px solid #000;
 }
 
-.history__cards {
+.history__gallery {
   padding: 0 10px 20px 10px;
   display: flex;
   flex-flow: row wrap;
@@ -55,7 +59,7 @@
 }
 
 @media(max-width: 940px) {
-  .history__cards {
+  .history__gallery {
     padding: 1vw;
   }
 }
@@ -67,6 +71,11 @@
     display: flex;
     flex-flow: column;
     margin: 0 auto;
+  }
+
+  .history__side {
+    /* width: 100vw; */
+    padding: 0;
   }
 
   .history__profile {

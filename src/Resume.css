@@ -2,7 +2,7 @@
   height: 80vh;
   padding: 10px 20px;
   text-align: left;
-  overflow: scroll;
+  overflow-y: scroll;
   background-color: #f4f4f4;
 }
 

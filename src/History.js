@@ -1,17 +1,32 @@
 import React, { useState } from 'react';
 import './History.css';
 import * as data from "./Background.json";
-import Card from "./Card"
 import Profile from "./Profile"
 import Badges from './Badges'
-import Images from "./Images";
 import About from './About';
+import Gallery from './Gallery';
 import Resume from './Resume';
+import CardModal from './CardModal';
 
 function History() {
   const [displayAbout, setDisplayAbout] = useState(false);
   const [displayCards, setDisplayCards] = useState(true);
   const [displayResume, setDisplayResume] = useState(false);
+  
+  const emptyCardModal = {
+    "info": {
+      "heading": "",
+      "url": "",
+      "date": "",
+      "subtitle": "",
+      "description": ""
+    },
+    "src": "",
+    "alt": ""
+  };
+  const [cardModal, setCardModal] = useState(emptyCardModal);
+  const [displayModal, setDisplayModal] = useState(false);
+  
   const showAbout = () => {
     setDisplayAbout(true);
     setDisplayCards(false);
@@ -28,17 +43,26 @@ function History() {
     setDisplayResume(true);
   };
 
-  const imageCards = Images.map((i) =>
-    <Card image={i} />
-  );
+  function updateCardModal(card) {
+    setCardModal(card);
+    setDisplayModal(true);
+  }
+
+  function hideModal() {
+    setCardModal(emptyCardModal);
+    setDisplayModal(false);
+  }
 
   return (
     <div className="history">
-      <div className="history__profile">
-        <Profile bio={data.profile.bio} />
-        <Badges social={data.profile.social} />
-        <p>Made with 🥔 in 🇨🇦</p>
+      <div class="history__side">
+        <div className="history__profile">
+          <Profile bio={data.profile.bio} />
+          <Badges social={data.profile.social} />
+        </div>
+        <CardModal card={cardModal} handleModal={hideModal} style={displayModal ? { display: "flex" } : { display: "none" }}/>
       </div>
+
       <hr />
       <div className="history__main">
         <div className="history__header">
@@ -46,11 +70,9 @@ function History() {
           <p onClick={showCards} className={displayCards ? "history__header_focused" : ""}>Gallery</p>
           <p onClick={showResume} className={displayResume ? "history__header_focused" : ""}>Resume</p>
         </div>
-        <div className="history__cards" style={displayCards ? {display:"flex"} : {display:"none"}}>
-          {imageCards}
-        </div>
-        <About className="history__about" style={displayAbout ? {display:"block"} : {display:"none"}} />
-        <Resume className="history__resume" style={displayResume ? {display:"block"} : {display:"none"}} />
+        <Gallery className="history__gallery" onCardClick={updateCardModal} style={displayCards ? { display: "flex" } : { display: "none" }} />
+        <About className="history__about" style={displayAbout ? { display: "block" } : { display: "none" }} />
+        <Resume className="history__resume" style={displayResume ? { display: "block" } : { display: "none" }} />
       </div>
 
     </div>
