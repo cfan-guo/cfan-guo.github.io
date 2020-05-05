@@ -7,13 +7,35 @@
   object-fit: cover;
   border-radius: 10px;
   box-sizing: border-box;
-  background-color: #f1f1f1;
+  background-color: #24292e;
+  cursor: pointer;
 }
 
 .card__img {
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
+  opacity: 1;
+  transition: opacity 0.25s ease-in;
+}
+
+.card__img:hover {
+  opacity: 0.6;
+}
+
+@keyframes fancy-keyframes {
+  from {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0.9;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  to {
+    opacity: 0.60;
+  }
 }
 
 @media(max-width: 930px) {

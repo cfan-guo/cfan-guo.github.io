@@ -3,16 +3,16 @@ import './Profile.css';
 
 function Profile({ bio }) {
   const stats = bio.stats.map((s) =>
-    <p><strong>{s.number}</strong> {s.value}</p>
+    <p key={s.number}><strong>{s.number}</strong> {s.value}</p>
   );
 
   const description = bio.description.map((d) =>
-    <p>{d}</p>
+    <p key={d[0]}>{d}</p>
   );
 
   return (
     <div className="profile">
-      <div class="profile__bio">
+      <div className="profile__bio">
         <div className="profile__img">
           <img alt="Fan looking away" src='/images/pfp.jpg' />
         </div>
@@ -24,7 +24,11 @@ function Profile({ bio }) {
           <div className="profile__description">
             {description}
           </div>
-          <p>🚪 <a href={bio.website}>{bio.website}</a> 🔑</p>
+          <p>
+            <span role="img" aria-label="door emoji">🚪</span>
+            <a href={bio.website}>{bio.website} </a>
+            <span role="img" aria-label="key emoji, like dj khaled">🔑</span>
+          </p>
         </div>
       </div>
     </div>

@@ -35,8 +35,11 @@ function About(props) {
         to travel. My favourite is exploring different markets and trying new foods!
       </p>
       <p className="about__long">
-        👀 Latest project (work in progress): <a href="https://cfanguo.me/vr_portfolio">VR version </a>
-        of this website. 👀
+        <span role="img" aria-label="side eyes emoji">👀 </span> 
+        Latest project (work in progress): 
+        <a href="https://cfanguo.me/vr_portfolio"> VR version </a>
+        of this website. 
+        <span role="img" aria-label="another side eyes emoji to keep things balanced">👀</span>
       </p>
     </div>
   );

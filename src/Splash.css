@@ -20,6 +20,7 @@
   color: #f1f1f1;
   height: 30px;
   width: 30px;
+  cursor: pointer;
 }
   
 .splash__card {
@@ -36,6 +37,12 @@
 
 .splash__disclaimer {
   font-size: 14px;
+}
+
+.non_xr {
+  font-weight: 700;
+  color: #ed4956;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 700px) {

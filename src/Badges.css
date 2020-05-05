@@ -24,6 +24,10 @@
   overflow: hidden;
 }
 
+.badges__iconOutline:hover {
+  transform: scale(1.1);
+}
+
 .badges__icon {
   color: #fff;
   object-fit: cover;

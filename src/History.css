@@ -3,7 +3,7 @@
   padding: 5px;
   text-align: center;
   display: flex;
-  flex-flow: row;
+  flex-flow: row-reverse;
   margin: 0 auto;
 }
 
@@ -30,6 +30,10 @@
   justify-content: space-around;
 }
 
+.history__header p {
+  cursor: pointer;
+}
+
 .history__header_focused {
   padding: 1px 0;
   border-bottom: 1px solid #000;
@@ -41,6 +45,7 @@
   text-align: left;
   border-top: 1px solid #000;
   width: 75%;
+  overflow-y: scroll;
 }
 
 .history__resume {
@@ -69,12 +74,11 @@
     background-color: #f1f1f1;
     padding: 0;
     display: flex;
-    flex-flow: column;
+    flex-flow: column-reverse;
     margin: 0 auto;
   }
 
   .history__side {
-    /* width: 100vw; */
     padding: 0;
   }
 

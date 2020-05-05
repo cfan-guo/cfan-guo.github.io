@@ -8,7 +8,7 @@ function Card({ card, onChildClick }) {
 
   return (
     <div className="card">
-      <img className="card__img" alt={card.alt} src={card.src} info={card.info} onClick={handleClick}/>
+      <img className="card__img" loading="lazy" alt={card.alt} src={card.src} info={card.info} onClick={handleClick} />
     </div>
   );
 }

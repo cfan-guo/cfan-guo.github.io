@@ -10,12 +10,12 @@ function CardModal({ card, style, handleModal }) {
   return (
     <div className="cardmodal" style={style}>
       <div className="cardmodal__content">
-        <a href="#"><FeatherIcon className="cardmodal__x" icon="x" onClick={hideModal} /></a>
+        <FeatherIcon className="cardmodal__x" icon="x" onClick={hideModal} />
         <img className="cardmodal__img" alt={card.alt} src={card.src} />
         <div className="cardmodal__text">
-          <p><a href={card.info.url}>{card.info.heading}</a></p>
+          <h3><a href={card.info.url}>{card.info.heading}</a></h3>
           <p>{card.info.date}</p>
-          <p>{card.info.subtitle}</p>
+          <p><strong>{card.info.subtitle}</strong></p>
           <p>{card.info.description}</p>
         </div>
       </div>

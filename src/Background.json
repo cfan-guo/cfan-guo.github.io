@@ -80,7 +80,7 @@
         "date": "2013 – 2018",
         "url": "https://www.ece.utoronto.ca/",
         "subtitle": "Bachelor of Applied Sciences in Computer Engineering",
-        "description": "During my undergrad, I was involved in many different of student life. I worked at the university as a residence don and in the engineering offices. I helped with engineering outreach and recruitment every year: from general volunteering, to being a panelist at events and being a residence advisor at the Girls Leadership in Engineering Experience weekend. I held leadership positions in various clubs and organizations, from the talent show to orientation week."
+        "description": "During my undergrad, I was involved in many different of student life. I worked at the university as a residence don and in the engineering offices. I helped with engineering outreach and recruitment: from general volunteering, to being a panelist at events and being a residence advisor at the Girls Leadership in Engineering Experience weekend. I held leadership positions in various clubs and organizations."
       },
       "src": "/images/uoft.jpg",
       "alt": "A group of graduates in graduation gowns standing on the grass against the background of University College at U of T."
@@ -142,50 +142,12 @@
     },
     {
       "info": {
-        "heading": "Keeping active",
-        "date": "Forever",
+        "heading": "Staying active",
+        "date": "",
         "url": "",
         "subtitle": "Volleyball, Ultimate Frisbee, Dragonboat, Fitness",
-        "description": "I love keeping active, though nowadays, I mostly just lift heavy things and play volleyball (court and beach). I did dragonboat for two years and played intramural volleyball and ultimate frisbee throught high school and university. In fact, in my graduating year, I received the Julie Wilkinson Award for the Engineering Athletics Association for achievement in intramural athletics."
+        "description": "I love sports and exercise, though nowadays, I mostly just lift heavy things and play volleyball (court and beach). I did dragonboat for two years and played intramural volleyball and ultimate frisbee throught high school and university. In fact, in my graduating year, I received the Julie Wilkinson Award for the Engineering Athletics Association for achievement in intramural athletics."
       },
-      "src": "/images/dragonboat.jpg",
-      "alt": "Closeup of a dragonboat with paddlers inside, holding up their paddles at an angle. Fan is wearing sunglasses and sticking her tongue out."
-    }
-  ],
-  "images": [
-    {
-      "src": "/images/connected.jpg",
-      "alt": "Drum set in front of a brick wall with coloured lights shining at it. The Connected logo is shone on the wall."
-    },
-    {
-      "src": "/images/flipp.jpg",
-      "alt": "Image of Fan standing in front of a background of repeating maple leaves and the Flipp logo, wearing a Canada flag headpiece."
-    },
-    {
-      "src": "/images/uoft.jpg",
-      "alt": "A group of graduates in graduation gowns standing on the grass against the background of University College at U of T."
-    },
-    {
-      "src": "/images/xr.jpg",
-      "alt": "Looking into the 3D model of a room from one corner, there is a desk with a laptop, monitor and keyboard setup. In the back there is a green couch and a shelf with items."
-    },
-    {
-      "src": "/images/pillpal.jpg",
-      "alt": "Four people in matching shirts around a poster board, laptop and pill bottles."
-    },
-    {
-      "src": "/images/smarger.jpg",
-      "alt": "Two students standing behind a laptop with the number 88 in front. Fan is on the right, holding a smartphone."
-    },
-    {
-      "src": "/images/obscript.jpg",
-      "alt": "A jelly donut against a backdrop of a laptop on a desk."
-    },
-    {
-      "src": "/images/huawei.jpg",
-      "alt": "A group of students in hotel lobby, in front of a Huawei Seeds for the Future sign. The guys are standing or kneeling, and the girls are sitting on the floor."
-    },
-    {
       "src": "/images/dragonboat.jpg",
       "alt": "Closeup of a dragonboat with paddlers inside, holding up their paddles at an angle. Fan is wearing sunglasses and sticking her tongue out."
     }

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './History.css';
 import * as data from "./Background.json";
-import Profile from "./Profile"
-import Badges from './Badges'
+import Profile from "./Profile";
+import Badges from './Badges';
 import About from './About';
 import Gallery from './Gallery';
 import Resume from './Resume';
@@ -55,15 +55,6 @@ function History() {
 
   return (
     <div className="history">
-      <div class="history__side">
-        <div className="history__profile">
-          <Profile bio={data.profile.bio} />
-          <Badges social={data.profile.social} />
-        </div>
-        <CardModal card={cardModal} handleModal={hideModal} style={displayModal ? { display: "flex" } : { display: "none" }}/>
-      </div>
-
-      <hr />
       <div className="history__main">
         <div className="history__header">
           <p onClick={showAbout} className={displayAbout ? "history__header_focused" : ""}>About</p>
@@ -74,7 +65,14 @@ function History() {
         <About className="history__about" style={displayAbout ? { display: "block" } : { display: "none" }} />
         <Resume className="history__resume" style={displayResume ? { display: "block" } : { display: "none" }} />
       </div>
-
+      <hr />
+      <div className="history__side">
+        <div className="history__profile">
+          <Profile bio={data.profile.bio} />
+          <Badges social={data.profile.social} />
+        </div>
+        <CardModal card={cardModal} handleModal={hideModal} style={displayModal ? { display: "flex" } : { display: "none" }}/>
+      </div>
     </div>
   );
 }

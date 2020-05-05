@@ -1,6 +1,6 @@
 import React from 'react';
 import Images from "./Images";
-import Card from "./Card"
+import Card from "./Card";
 
 function Gallery({ className, style, onCardClick }) {
   function handleChildClick(card) {
@@ -8,7 +8,7 @@ function Gallery({ className, style, onCardClick }) {
   }
 
   const imageCards = Images.map((i) =>
-    <Card card={i} onChildClick={handleChildClick} />
+    <Card key={i.info.heading} card={i} onChildClick={handleChildClick} />
   );
 
   return (
