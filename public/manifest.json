@@ -1,6 +1,7 @@
 {
-  "short_name": "Fannerino",
-  "name": "Fan's Workspace",
+  "short_name": "Fan",
+  "name": "see fan go",
+  "description": "Fan's portfolio website",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +9,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "start_url": ".",
