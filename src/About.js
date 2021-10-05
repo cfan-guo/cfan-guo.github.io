@@ -4,19 +4,25 @@ function About(props) {
   return (
     <div className={props.className} style={props.style}>
       <p className="about__short">
-        I'm a product-focused web engineer currently working at <a href="https://www.connected.io/">Connected</a>.
-        My most recent projects are in the areas of in data engineering, virtual and extended reality,
+        I'm a senior software engineer currently working at <a href="https://www.gobble.com/">Gobble</a>.
+        Since we're a small team, I've had the chance to work on customer features (protein customizations),
+        improve internal processes (reducing weekly menu launch time), fix time-critical bugs and translate
+        asks from other teams into beautiful and functional code. Oh yeah, and I've been raising the bar on
+        making company-wide presentations more engaging.
+      </p>
+      <p className="about__short">
+        Previously, I was a product-focused web engineer currently working at <a href="https://www.connected.io/">
+        Connected</a>. Some of my favourite projects were in areas of data engineering, AR/VR,
         computer aided design, and healthcare.
       </p>
       <p className="about__short">
-        I'm also a team lead and an engineering manager, facilitating guild growth through technical
-        rituals and company-wide socials in addition to supporting the individual career growth
-        of my reports.
+        I was also a team lead and an engineering manager, and I could totally see myself in that sort of role
+        again in the future!
       </p>
       <p className="about__short">
-        Previously, I worked at <a href="https://flipp.com/home"> Flipp</a> to build and deliver
-        customized desktop and mobile flyer themes and dynamic content for Canadian and US
-        retailers on Flipp’s hosted platform.
+        My very first job was at <a href="https://flipp.com/home"> Flipp</a> to build and deliver
+        customized desktop and mobile flyer themes and dynamic content for Canadian and US retailers on Flipp’s
+        hosted platform.
       </p>
       <p className="about__long">
         I graduated with a Bachelors of Applied Sciences in Computer Engineering from the University of
@@ -29,6 +35,7 @@ function About(props) {
         I love being on diverse teams, learning from smart people and being involved in company stuff
         outside of my direct responsibilities. In the past, I've helped out with university recruitment and
         interviewing, and I've given and facilitated talks at company roundtables and technical microlearns.
+        I love when people tell me how much fun they had at events I've hosted!
       </p>
       <p className="about__long">
         In my spare time, I like to read about new technologies, cook, and work out in my home gym. I also love

@@ -17,7 +17,9 @@
         }
       ],
       "description": [
-        "✨ product-focused web engineer 👩🏻‍💻 and engineering manager 👩🏻‍💼",
+        "✨ product-focused web engineer 👩🏻‍💻",
+        "previously an engineering manager 👩🏻‍💼",
+        "💎 ruby, rails and hiking trails 🥾",
         "⬇️ check out my VR room! ⬇️"
       ],
       "website": "http://cfanguo.me/vr"
@@ -56,9 +58,9 @@
       "info": {
         "heading": "Connected",
         "url": "https://www.connected.io/",
-        "date": "July 2018 – Present",
+        "date": "July 2018 – August 2020",
         "subtitle": "Software Engineer and Engineering Manager",
-        "description": "In addition to my responsibilities as an engineer, I am a house captain in Connected's house system, I captain the Connected volleyball team and I used to run a recurring remote trivia quiz show. I also help plan engineering guild initiatives and Connected's Labs program, as well as recruiting efforts."
+        "description": "In addition to my responsibilities as an engineer, I was a house captain in Connected's house system, I captained the Connected volleyball team and I used to run a recurring remote trivia quiz show. I also helped plan engineering guild initiatives and Connected's Labs program, as well as recruiting efforts."
       },
       "src": "/images/connected.jpg",
       "alt": "Drum set in front of a brick wall with coloured lights shining at it. The Connected logo is shone on the wall."
