@@ -5,13 +5,12 @@ function About(props) {
     <div className={props.className} style={props.style}>
       <p className="about__short">
         I'm a senior software engineer currently working at <a href="https://www.gobble.com/">Gobble</a>.
-        Since we're a small team, I've had the chance to work on customer features (protein customizations),
-        improve internal processes (reducing weekly menu launch time), fix time-critical bugs and translate
-        asks from other teams into beautiful and functional code. Oh yeah, and I've been raising the bar on
-        making company-wide presentations more engaging.
+        Since we're a small team, I've had the chance to work on customer features, improve internal processes,
+        fix time-critical bugs and translate asks from other teams into beautiful and functional code. Oh yeah, 
+        and I've been raising the bar on making company-wide presentations more engaging.
       </p>
       <p className="about__short">
-        Previously, I was a product-focused web engineer currently working at <a href="https://www.connected.io/">
+        Previously, I was a product-focused web engineer at <a href="https://www.connected.io/">
         Connected</a>. Some of my favourite projects were in areas of data engineering, AR/VR,
         computer aided design, and healthcare.
       </p>

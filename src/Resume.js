@@ -1,6 +1,6 @@
 import React from 'react';
 import * as data from "./Resume.json";
-import * as resumePDF from "./FanGuo2020Resume.pdf";
+import * as resumePDF from "./FanGuoResume.pdf";
 import './Resume.css';
 
 function Resume(props) {
