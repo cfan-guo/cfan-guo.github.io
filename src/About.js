@@ -4,48 +4,37 @@ function About(props) {
   return (
     <div className={props.className} style={props.style}>
       <p className="about__short">
-        I'm a senior software engineer currently working at <a href="https://www.gobble.com/">Gobble</a>.
-        Since we're a small team, I've had the chance to work on customer features, improve internal processes,
-        fix time-critical bugs and translate asks from other teams into beautiful and functional code. Oh yeah, 
-        and I've been raising the bar on making company-wide presentations more engaging.
+        I'm a software engineer based in Toronto, Canada, currently working at <a href="https://www.properly.ca/">
+        Properly</a>, a Canadian real estate startup. So far, most of my work has been around supporting our SEO 
+        initiatives by building out new pages, making pages more search engine-friendly, improving page performance 
+        and supporting the content team in getting content on our pages faster and more efficiently.
       </p>
       <p className="about__short">
-        Previously, I was a product-focused web engineer at <a href="https://www.connected.io/">
-        Connected</a>. Some of my favourite projects were in areas of data engineering, AR/VR,
-        computer aided design, and healthcare.
+        Previously, I worked at <a href="https://www.gobble.com/">Gobble</a>, a dinner kit/ meal delivery service 
+        operating in the US. Since our team was so small, I often owned new features and initiatives end to end. I 
+        worked on customer features, improved internal processes, fixed time-critical bugs and translated requests 
+        from other teams into beautiful and functional code.
       </p>
       <p className="about__short">
-        I was also a team lead and an engineering manager, and I could totally see myself in that sort of role
-        again in the future!
+        Prior to that, I worked at <a href="https://www.connected.io/">Connected</a> on projects in related to AR/VR, 
+        computer aided design, data engineering and healthcare. I was also a team lead and an engineering manager, and 
+        can see myself in that role again in the future (Soon™)
       </p>
       <p className="about__short">
         My very first job was at <a href="https://flipp.com/home"> Flipp</a> to build and deliver
         customized desktop and mobile flyer themes and dynamic content for Canadian and US retailers on Flipp’s
-        hosted platform.
+        hosted flyer platform.
       </p>
       <p className="about__long">
         I graduated with a Bachelors of Applied Sciences in Computer Engineering from the University of
-        Toronto. During my time there, I was active in many areas of student life: from outreach and dance
-        to sports and <a href="http://skulepedia.ca/wiki/Welcome">Skule spirit</a>. I was a residence don
+        Toronto. During my time there, I was active in many areas of student life, particularly in STEM outreach,
+        sports and <a href="http://skulepedia.ca/wiki/Welcome">Skule spirit</a>. I was a residence don
         in my last year at <a href="http://www.newcollege.utoronto.ca/"> New College Residence</a>, and directly
         responsible for the wellbeing of the 40 students on my floor.
       </p>
       <p className="about__long">
-        I love being on diverse teams, learning from smart people and being involved in company stuff
-        outside of my direct responsibilities. In the past, I've helped out with university recruitment and
-        interviewing, and I've given and facilitated talks at company roundtables and technical microlearns.
-        I love when people tell me how much fun they had at events I've hosted!
-      </p>
-      <p className="about__long">
-        In my spare time, I like to read about new technologies, cook, and work out in my home gym. I also love
-        to travel. My favourite is exploring different markets and trying new foods!
-      </p>
-      <p className="about__long">
-        <span role="img" aria-label="side eyes emoji">👀 </span> 
-        Latest project (work in progress): 
-        <a href="https://cfanguo.me/vr_portfolio"> VR version </a>
-        of this website. 
-        <span role="img" aria-label="another side eyes emoji to keep things balanced">👀</span>
+        Usually I can be found offline pursuing one of my hobbies - currently they revolve around growing food, making 
+        food 🌾, making food 🍜, eating food 😋 and using that food energy to pick things up and put them down 🏋️‍♀️.
       </p>
     </div>
   );

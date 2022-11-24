@@ -25,9 +25,7 @@ function Profile({ bio }) {
             {description}
           </div>
           <p>
-            <span role="img" aria-label="door emoji">🚪</span>
             <a href={bio.website}>{bio.website} </a>
-            <span role="img" aria-label="key emoji, like dj khaled">🔑</span>
           </p>
         </div>
       </div>

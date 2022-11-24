@@ -18,10 +18,9 @@
       ],
       "description": [
         "✨ product-focused web engineer 👩🏻‍💻",
-        "💎 ruby, rails and hiking trails 🥾",
-        "⬇️ check out my VR room! ⬇️"
+        "Check out my (mostly non-technical) blog!"
       ],
-      "website": "http://cfanguo.me/vr"
+      "website": "https://blog.cfanguo.me/"
     },
     "social": [
       {
@@ -55,14 +54,36 @@
   "cards": [
     {
       "info": {
+        "heading": "Properly",
+        "url": "https://properly.ca/",
+        "date": "January 2022 - Present",
+        "subtitle": "Software Engineer",
+        "description": "Most of my work has been related to SEO, and two of my favourite projects so far have been the release of Area Landing Pages to capture location keyword search traffic, and \"Real Estate, Explained\" as an indexable content hub. I do like seeing our search numbers go up 📈"
+      },
+      "src": "/images/properly.jpg",
+      "alt": "A billboard along a desolate looking road, featuring the Property Brothers, behind a traffic sign. The billboard text reads Feel at home while buying a home. properly.ca"
+    },
+    {
+      "info": {
+        "heading": "Gobble",
+        "url": "https://www.connected.io/",
+        "date": "August 2020 – December 2021",
+        "subtitle": "Senior Software Engineer",
+        "description": "On a small team of 5 engineers (including our CTO), I worked directly with members of the CS, marketing and culinary teams to action on their pain points with our internal site (from setting menus to campaigns to resolving user issues), as well as building new features to accompany our improved food product offerings."
+      },
+      "src": "/images/gobble.jpeg",
+      "alt": "A picnic blanket with the text Gobble on it."
+    },
+    {
+      "info": {
         "heading": "Connected",
         "url": "https://www.connected.io/",
         "date": "July 2018 – August 2020",
         "subtitle": "Software Engineer and Engineering Manager",
-        "description": "In addition to my responsibilities as an engineer, I was a house captain in Connected's house system, I captained the Connected volleyball team and I used to run a recurring remote trivia quiz show. I also helped plan engineering guild initiatives and Connected's Labs program, as well as recruiting efforts."
+        "description": "In addition to my responsibilities as an engineer, I was a house captain in Connected's house system, I captained the Connected volleyball team and I used to run a recurring remote trivia quiz show. I also helped plan engineering guild initiatives and Connected's \"Labs\" program, as well as mentorship and recruitment initiatives."
       },
       "src": "/images/connected.jpg",
-      "alt": "Drum set in front of a brick wall with coloured lights shining at it. The Connected logo is shone on the wall."
+      "alt": "Drum set in front of a brick wall with coloured lights shining at it. The Connected logo is displayed on the wall."
     },
     {
       "info": {
@@ -70,7 +91,7 @@
         "url": "https://flipp.com/",
         "date": "May 2016 – Aug 2017",
         "subtitle": "Junior Software Engineer",
-        "description": "I worked on the Retailer Excellence team as part of the Hosted Platform, which was responsible for creating the flyer framework that lives on retailer websites. Since I had many of the same responsibilities as a full time employee, I also helped with onboarding new engineers and attending recruitment events."
+        "description": "I was on the team that actioned on retailer customizations, working with the team that maintains the flyer framework that lives on retailer websites. Since I had many of the same responsibilities as a full time employee, I also helped with onboarding new engineers and attending recruitment events."
       },
       "src": "/images/flipp.jpg",
       "alt": "Image of Fan standing in front of a background of repeating maple leaves and the Flipp logo, wearing a Canada flag headpiece."
@@ -81,21 +102,10 @@
         "date": "2013 – 2018",
         "url": "https://www.ece.utoronto.ca/",
         "subtitle": "Bachelor of Applied Sciences in Computer Engineering",
-        "description": "During my undergrad, I was involved in many different of student life. I worked at the university as a residence don and in the engineering offices. I helped with engineering outreach and recruitment: from general volunteering, to being a panelist at events and being a residence advisor at the Girls Leadership in Engineering Experience weekend. I held leadership positions in various clubs and organizations."
+        "description": "During my undergrad, I was involved in many different of student life. I worked at the university as a residence don and in the engineering offices. I helped with engineering outreach and recruitment in different ways - general volunteering, being a panelist at events and being a residence advisor at the Girls Leadership in Engineering Experience weekend."
       },
       "src": "/images/uoft.jpg",
       "alt": "A group of graduates in graduation gowns standing on the grass against the background of University College at U of T."
-    },
-    {
-      "info": {
-        "heading": "Extended reality web portfolio",
-        "date": "2020",
-        "url": "https://cfanguo.com/vr_portfolio",
-        "subtitle": "A-Frame",
-        "description": "Developed a simple workspace with item interactions for AR/ VR and desktop/ mobile. 3D assets were created using TinkerCAD and Blender."
-      },
-      "src": "/images/xr.jpg",
-      "alt": "Looking into the 3D model of a room from one corner, there is a desk with a laptop, monitor and keyboard setup. In the back there is a green couch and a shelf with items."
     },
     {
       "info": {
@@ -103,7 +113,7 @@
         "date": "2017 – 2018",
         "url": "",
         "subtitle": "ASP.NET Core, C#, ReactJS",
-        "description": "Developed a consumer focused hardware and software solution to improve medication adherence in the elderly. We were selected for the CNIB Hochhausen Prize for Excellence in Accessible Design in Engineering for People who are Blind or Partially Sighted as well as Certificate of Distinction for Excellence in Design Project."
+        "description": "Our team developed a consumer focused hardware and software solution to improve medication adherence in the elderly. We were selected for the CNIB Hochhausen Prize for Excellence in Accessible Design in Engineering for People who are Blind or Partially Sighted as well as Certificate of Distinction for Excellence in Design Project."
       },
       "src": "/images/pillpal.jpg",
       "alt": "Four people in matching shirts around a poster board, laptop and pill bottles."
@@ -121,22 +131,11 @@
     },
     {
       "info": {
-        "heading": "Onboarding script @ Flipp's Internal Hackathon",
-        "date": "July 2016",
-        "url": "",
-        "subtitle": "BASH",
-        "description": "We compiled commands and setup instructions into a script that allowed the user to quickly set up a Ruby on Rails development environment, which reduced average set up time by 80% (a week)."
-      },
-      "src": "/images/obscript.jpg",
-      "alt": "A jelly donut against a backdrop of a laptop on a desk."
-    },
-    {
-      "info": {
         "heading": "Huawei Seeds for the Future, Canadian Delegate",
         "date": "May 2016",
         "url": "https://www.huawei.com/ca/about-huawei/corporate-citizenship/seeds-for-the-Future",
         "subtitle": "",
-        "description": "One of 18 delegates across Canada for an immersive two-week cultural and technical lab program in China to understand the roles of Canada and China in the global ICT market."
+        "description": "I was one of 18 delegates across Canada selected for an immersive two-week cultural and technical lab program in China to understand the roles of Canada and China in the global ICT market."
       },
       "src": "/images/huawei.jpg",
       "alt": "A group of students in hotel lobby, in front of a Huawei Seeds for the Future sign. The guys are standing or kneeling, and the girls are sitting on the floor."
@@ -146,8 +145,8 @@
         "heading": "Staying active",
         "date": "",
         "url": "",
-        "subtitle": "Volleyball, Ultimate Frisbee, Dragonboat, Fitness",
-        "description": "I love sports and exercise, though nowadays, I mostly just lift heavy things and play volleyball (court and beach). I did dragonboat for two years and played intramural volleyball and ultimate frisbee throught high school and university. In fact, in my graduating year, I received the Julie Wilkinson Award for the Engineering Athletics Association for achievement in intramural athletics."
+        "subtitle": "Volleyball, Ultimate Frisbee, Dragonboat, Weightlifting",
+        "description": "These days I mostly just lift heavy things in my basement (gunning for that 3 plate squat and 1 plate bench). I did dragonboat for two years and played intramural volleyball and ultimate frisbee throughout high school and university. In my graduating year, I received the Julie Wilkinson Award for the Engineering Athletics Association for achievement in intramural athletics."
       },
       "src": "/images/dragonboat.jpg",
       "alt": "Closeup of a dragonboat with paddlers inside, holding up their paddles at an angle. Fan is wearing sunglasses and sticking her tongue out."
