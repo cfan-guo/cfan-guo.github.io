@@ -1,10 +1,43 @@
+body {
+  cursor: url("../icons/noodles.cur"), auto !important;
+}
+
 marquee {
   background-color: yellow;
   padding: 0.5em 0;
 }
 
+nav {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+nav div {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-align: center;
+}
+
+nav div a {
+  margin-left: 1em;
+}
+
+nav img {
+  max-height: 50px;
+}
+
 header {
   text-align: center;
+}
+
+h1 span {
+  color: #48730c;
 }
 
 main {

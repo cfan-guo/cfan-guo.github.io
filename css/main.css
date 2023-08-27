@@ -14,4 +14,8 @@
     flex-direction: row-reverse;
     justify-content: space-between;
   }
+
+  .upper article {
+    margin-right: 1.5em;
+  }
 }
