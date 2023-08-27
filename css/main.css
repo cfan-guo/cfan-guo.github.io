@@ -1,0 +1,17 @@
+.pfp {
+  height: 300px;
+}
+
+.pfp img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .upper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}

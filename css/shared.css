@@ -1,0 +1,28 @@
+marquee {
+  background-color: yellow;
+  padding: 0.5em 0;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  padding: 0 1em;
+}
+
+hr {
+  margin: 1.5em 0;
+}
+
+a {
+  color: #48730c;
+}
+
+@media (min-width: 768px) {
+  main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
