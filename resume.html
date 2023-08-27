@@ -36,13 +36,26 @@
     </header>
     <main>
       <article>
-        <section class="images"></section>
+        <section class="intro">
+          <p>
+            As a software engineer mainly working on the web 🕸️, you might
+            consider me... <i>SpiderFan</i>. <br />(badum tss 🥁)
+          </p>
+          <p>
+            I'm not picky with tech, but I'm most familiar with React on the
+            frontend and I do appreciate Ruby's idea to "optimize for programmer
+            happiness" 💖.
+          </p>
+          <p>
+            Anyways, here's a handy-dandy web-optimized version of my resume,
+            with a PDF download option.
+          </p>
+        </section>
         <section class="resume">
           <ul class="controls">
             <li id="resume-toggle">Open all</li>
             <li><a href="resume.pdf">Download</a></li>
           </ul>
-
           <article class="experience">
             <h2>Experience</h2>
             <details>
@@ -202,6 +215,88 @@
               </div>
             </details>
           </article>
+          <article class="projects">
+            <h2>Projects</h2>
+            <details>
+              <summary>
+                PillPal: an IoT multi-pill dispenser and management tool
+              </summary>
+              <div>
+                <p>2017 - 2018, 4th Year Design Project</p>
+                <p class="skills">React, ASP.NET Core, C#</p>
+                <ul>
+                  <li>
+                    Developed and prototyped an application to improve
+                    medication adherence.
+                  </li>
+                  <li>
+                    Selected to present at the ECE Final Design Showcase and ECE
+                    4th Year and Alumni Celebration.
+                  </li>
+                </ul>
+              </div>
+            </details>
+            <details>
+              <summary>Smart Charger</summary>
+              <div>
+                <p>2016, YHack</p>
+                <p class="skills">Java (Android), Arduino</p>
+                <ul>
+                  <li>
+                    Android app to stop device charging at a user-defined
+                    percentage.
+                  </li>
+                </ul>
+              </div>
+            </details>
+          </article>
+        </section>
+        <section class="images">
+          <div id="images-toggle">Hide images</div>
+          <div class="show-images">
+            <div class="image-card">
+              <img
+                src="img/properly.jpg"
+                alt="Roadside billboard for Properly, with the Scott Brothers and the text 'Feel at home while buying a home' and the url properly.ca"
+              />
+            </div>
+            <div class="image-card">
+              <img
+                src="img/gobble.jpeg"
+                alt="Folded up picnic blanket with the Gobble logo, sitting on cookbooks and covered in string lights"
+              />
+            </div>
+            <div class="image-card">
+              <img
+                src="img/connected.jpg"
+                alt="DJ standing in front of a wall backlit with the Connected logo"
+              />
+            </div>
+            <div class="image-card">
+              <img
+                src="img/flipp.jpg"
+                alt="Smiling girl holding a plate while standing in front of a backdrop interspersing a Canadian maple leaf and the Flipp logo, wearing a headband prop with Canadian flag antennae"
+              />
+            </div>
+            <div class="image-card">
+              <img
+                src="img/uoft.jpg"
+                alt="Students in graduation robes posing for a group photo on Kings College Circle, University of Toronto"
+              />
+            </div>
+            <div class="image-card">
+              <img
+                src="img/pillpal.jpg"
+                alt="Four students smiling and standing with a project board titled 'An IOT Multi-Pill Dispenser and Management Tool'"
+              />
+            </div>
+            <div class="image-card">
+              <img
+                src="img/smarger.jpg"
+                alt="Two students at a Hackathon standing with an electronic device (Arduino, breadboard, wires), holding a phone with an app"
+              />
+            </div>
+          </div>
         </section>
       </article>
       <hr />
@@ -228,7 +323,7 @@
       element.toggleAttribute("open");
     }
 
-    function toggleText(text) {
+    function toggleResumeText(text) {
       if (text === "Open all") {
         return "Close all";
       } else {
@@ -236,11 +331,24 @@
       }
     }
 
+    function toggleImageText(text) {
+      if (text === "Hide images") {
+        return "Show images";
+      } else {
+        return "Hide images";
+      }
+    }
+
     document.getElementById("resume-toggle").onclick = function () {
-      this.innerHTML = toggleText(this.innerHTML);
+      this.innerHTML = toggleResumeText(this.innerHTML);
       Array.from(document.getElementsByTagName("details")).forEach(
         toggleNavigation
       );
+    };
+
+    document.getElementById("images-toggle").onclick = function () {
+      this.innerHTML = toggleImageText(this.innerHTML);
+      document.querySelector(".show-images").classList.toggle("hide-images");
     };
   </script>
 </html>
