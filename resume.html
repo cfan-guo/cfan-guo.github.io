@@ -4,7 +4,7 @@
     <title>see fan go 👀</title>
     <meta
       name="description"
-      content="Homepage of Fan Guo - software engineer, tomato grower, weightlifter and cat wrangler. 🇨🇳 制造 and 🇨🇦 raised, eh"
+      content="Resume of Fan Guo - software engineer, tomato grower, weightlifter and cat wrangler. 🇨🇳 制造 and 🇨🇦 raised, eh"
     />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="icon" href="favicon.ico" />
@@ -14,6 +14,13 @@
       rel="noopener"
       target="_blank"
       href="css/shared.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      rel="noopener"
+      target="_blank"
+      href="css/resume.css"
     />
   </head>
   <body>
@@ -31,8 +38,11 @@
       <article>
         <section class="images"></section>
         <section class="resume">
-          <p><a href="resume.pdf">Download resume</a></p>
-          <p id="resume-toggle">Open all</p>
+          <ul class="controls">
+            <li id="resume-toggle">Open all</li>
+            <li><a href="resume.pdf">Download</a></li>
+          </ul>
+
           <article class="experience">
             <h2>Experience</h2>
             <details>
@@ -40,8 +50,11 @@
                 <a href="https://properly.ca">Properly</a>
               </summary>
               <div>
-                <p>JAN 2022 - PRESENT, Software Engineer</p>
                 <p>
+                  JAN 2022 - PRESENT,
+                  <span class="role">Software Engineer</span>
+                </p>
+                <p class="skills">
                   Javascript, Typescript, React, Next.js, React Native, Python
                 </p>
                 <ul>
@@ -69,8 +82,13 @@
                 <a href="https://gobble.com">Gobble Inc</a>
               </summary>
               <div>
-                <p>AUG 2020 - DEC 2021, Senior Software Engineer</p>
-                <p>Ruby on Rails, CSS (Sass), Javascript, React, GraphQL</p>
+                <p>
+                  AUG 2020 - DEC 2021,
+                  <span class="role">Senior Software Engineer</span>
+                </p>
+                <p class="skills">
+                  Ruby on Rails, CSS (Sass), Javascript, React, GraphQL
+                </p>
                 <ul>
                   <li>
                     Developed a new multistep menu approvals system and improved
@@ -97,7 +115,9 @@
               </summary>
               <div>
                 <p>
-                  APR 2020 - AUG 2020, Engineering Manager (3 direct reports)
+                  APR 2020 - AUG 2020,
+                  <span class="role">Engineering Manager</span> (3 direct
+                  reports)
                 </p>
                 <ul>
                   <li>
@@ -106,8 +126,11 @@
                     adjustment period.
                   </li>
                 </ul>
-                <p>JUL 2018 - AUG 2020, Software Engineer</p>
-                <p>Ruby, Hack, Python, Javascript, React</p>
+                <p>
+                  JUL 2018 - AUG 2020,
+                  <span class="role">Software Engineer</span>
+                </p>
+                <p class="skills">Ruby, Hack, Python, Javascript, React</p>
                 <ul>
                   <li>
                     Led team to prototype DXF viewer using React and three.js.
@@ -129,8 +152,13 @@
                 <a href="https://flipp.com">Flipp</a>
               </summary>
               <div>
-                <p>MAY 2016 - AUG 2017, Software Engineer</p>
-                <p>Ruby on Rails, HTML, CSS (Sass), Javascript</p>
+                <p>
+                  MAY 2016 - AUG 2017,
+                  <span class="role">Software Engineer</span>
+                </p>
+                <p class="skills">
+                  Ruby on Rails, HTML, CSS (Sass), Javascript
+                </p>
                 <ul>
                   <li>
                     Built and delivered customized desktop and mobile flyer
@@ -157,8 +185,8 @@
                 <ul>
                   <li>
                     CNIB Hochhausen Prize for Excellence in Accessible Design in
-                    Engineering for People who are Blind or Partially Sighted (
-                    2018)
+                    Engineering for People who are Blind or Partially Sighted
+                    (2018)
                   </li>
                   <li>
                     Certificate of Distinction for Excellence in Design Project

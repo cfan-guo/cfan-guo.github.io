@@ -1,0 +1,40 @@
+.resume {
+  border: 1px solid #48730c;
+  padding: 1em;
+}
+
+summary {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.experience .role {
+  font-weight: bold;
+}
+
+.experience .skills {
+  font-style: italic;
+}
+
+.resume li {
+  line-height: 1.5em;
+}
+
+.resume .controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding: initial;
+}
+
+.controls li {
+  padding: 0.5em;
+  border: 1px solid #48730c;
+}
+
+.controls :last-child {
+  background-color: #48730c;
+  color: white;
+  text-decoration: none;
+}
