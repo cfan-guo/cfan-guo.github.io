@@ -8,9 +8,7 @@ header {
 }
 
 main {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 1em;
 }
 
 hr {
@@ -21,4 +19,10 @@ a {
   color: #48730c;
 }
 
-/* add mobile styling */
+@media (min-width: 768px) {
+  main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

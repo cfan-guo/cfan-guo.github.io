@@ -1,6 +1,7 @@
 .resume {
   border: 1px solid #48730c;
   padding: 1em;
+  margin: 0 -1em;
 }
 
 summary {
@@ -25,6 +26,7 @@ summary {
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
+  margin-top: 0;
   padding: initial;
 }
 
@@ -37,4 +39,10 @@ summary {
   background-color: #48730c;
   color: white;
   text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .resume {
+    margin: initial;
+  }
 }
