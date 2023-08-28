@@ -1,4 +1,6 @@
 .resume {
+  /* TODO: light mode theme */
+  /* background-color: white; */
   border: 1px solid #48730c;
   padding: 1em;
   margin: 0 -1em 1em -1em;
@@ -11,6 +13,7 @@
 summary {
   font-size: larger;
   font-weight: bold;
+  margin-bottom: 0.75em;
 }
 
 .experience .role {
@@ -33,9 +36,12 @@ summary {
 }
 
 .controls li {
-  padding: 0.5em;
   border: 1px solid #48730c;
+  /* TODO: light mode theme */
+  /* background-color: #ae9380; */
   background-color: white;
+  color: black;
+  padding: 0.5em;
 }
 
 .controls :last-child {
@@ -54,7 +60,7 @@ summary {
 }
 
 .images img {
-  border: 1px solid black;
+  border: 1px solid #48730c;
   border-radius: 6px;
   height: 100%;
   object-fit: cover;
@@ -63,6 +69,7 @@ summary {
 
 #images-toggle {
   background-color: #ed4956;
+  border: 1px solid black;
   justify-self: center;
   margin-bottom: 1em;
   padding: 0.7em;
@@ -124,4 +131,25 @@ summary {
     grid-column: 3 / 4;
     margin-bottom: initial;
   }
+}
+
+.dark .resume,
+.dark #resume-toggle,
+.dark .images img {
+  border: 1px solid #50fa7b;
+}
+
+.dark .controls li,
+.dark #images-toggle {
+  border: 1px solid white;
+}
+
+.dark #resume-toggle {
+  background-color: #202124;
+  color: white;
+}
+
+.dark .controls :last-child {
+  background-color: #50fa7b;
+  color: #202124;
 }
