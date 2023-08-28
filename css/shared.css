@@ -1,5 +1,8 @@
 body {
   cursor: url("../icons/noodles.cur"), auto !important;
+  /* TODO: light mode theme */
+  /* background-color: #f1e3d3; */
+  /* color: #513427; */
 }
 
 marquee {
@@ -58,4 +61,19 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.dark {
+  background-color: #202124;
+  color: white;
+}
+
+.dark #images-toggle,
+.dark marquee {
+  color: initial;
+}
+
+.dark h1 span,
+.dark a {
+  color: #50fa7b;
 }
