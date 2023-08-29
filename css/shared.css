@@ -1,5 +1,6 @@
 body {
   cursor: url("../icons/noodles.cur"), auto !important;
+  font-family: "Times New Roman", Times, serif;
   /* TODO: light mode theme */
   /* background-color: #f1e3d3; */
   /* color: #513427; */
