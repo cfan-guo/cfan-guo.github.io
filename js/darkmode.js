@@ -1,21 +1,52 @@
-let body = document.body;
-let darkmodeText = document.querySelector("#darkmode-text");
+const body = document.body;
+const darkmodeText = document.querySelector("#darkmode-text");
+const localDark =
+  localStorage.getItem("theme") && localStorage.getItem("theme") === "dark";
+const initialSystemDark =
+  window.matchMedia &&
+  window.matchMedia("(prefers-color-scheme: dark)").matches &&
+  (!localStorage.getItem("theme") || localDark);
 
-if (localStorage.getItem("dark")) {
+// annoyingly enough, things don't stick if I just set it as dark true/false
+// hence the "dark"/"light"
+
+function darken(setLocal = false) {
   body.classList.add("dark");
   darkmodeText.innerHTML = "light mode";
+
+  if (setLocal) {
+    localStorage.setItem("theme", "dark");
+  }
+}
+
+function lighten(setLocal = false) {
+  body.classList.remove("dark");
+  darkmodeText.innerHTML = "dark mode";
+
+  if (setLocal) {
+    localStorage.setItem("theme", "light");
+  }
+}
+
+// check on initial site visit if user has previously set theme
+// or has a colour scheme via OS
+// we'll match their system settings as long as they don't touch the toggle
+if (initialSystemDark || localDark) {
+  darken();
 }
 
 function toggleTheme() {
-  let darkMode = localStorage.getItem("dark");
+  const localDark =
+    localStorage.getItem("theme") && localStorage.getItem("theme") === "dark";
+  const initialSystemDark =
+    window.matchMedia &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches &&
+    (!localStorage.getItem("theme") || localDark);
+  const darkMode = localDark || initialSystemDark;
 
   if (darkMode) {
-    body.classList.remove("dark");
-    localStorage.removeItem("dark");
-    darkmodeText.innerHTML = "dark mode";
+    lighten(true);
   } else {
-    body.classList.add("dark");
-    localStorage.setItem("dark", true);
-    darkmodeText.innerHTML = "light mode";
+    darken(true);
   }
 }
