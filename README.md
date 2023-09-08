@@ -1,1 +1,1 @@
-Fan's portfolio, bootstrapped with create-react-app and deployed to GitHub pages.
+website is live at [cfanguo.me](https://cfanguo.me) 
