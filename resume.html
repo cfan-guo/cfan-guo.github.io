@@ -56,6 +56,7 @@
         </a>
       </div>
     </nav>
+    <p id="banners-toggle">toggle banners</p>
     <marquee behavior="alternate"> ⚠️ under construction!! 🚧 </marquee>
     <marquee>
       also, did you know the marquee element was deprecated in HTML5? if this
@@ -428,14 +429,19 @@
     </main>
   </body>
   <script src="js/darkmode.js"></script>
+  <script src="js/headache.js"></script>
   <script type="module">
     import { bubbleCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
 
     new bubbleCursor();
   </script>
   <script>
-    function toggleNavigation(element) {
-      element.toggleAttribute("open");
+    function toggleNavigation(element, open) {
+      if (open) {
+        element.setAttribute("open", open);
+      } else {
+        element.removeAttribute("open");
+      }
     }
 
     function toggleResumeText(text) {
@@ -456,8 +462,9 @@
 
     document.getElementById("resume-toggle").onclick = function () {
       this.innerHTML = toggleResumeText(this.innerHTML);
-      Array.from(document.getElementsByTagName("details")).forEach(
-        toggleNavigation
+      let open = this.innerHTML === "Close all";
+      Array.from(document.getElementsByTagName("details")).forEach((el) =>
+        toggleNavigation(el, open)
       );
     };
 

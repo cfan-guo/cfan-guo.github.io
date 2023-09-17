@@ -40,10 +40,6 @@ header {
   text-align: center;
 }
 
-h1 span {
-  color: #48730c;
-}
-
 main {
   padding: 0 1em;
 }
@@ -52,7 +48,10 @@ hr {
   margin: 1.5em 0;
 }
 
-a {
+a,
+h1 span,
+#banners-toggle,
+#darkmode-text {
   color: #48730c;
 }
 
@@ -70,6 +69,15 @@ a {
 /* TODO: remove when employed */
 marquee.hireme.desktop {
   display: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#banners-toggle,
+#darkmode-text {
+  text-decoration: underline;
 }
 
 @media (min-width: 768px) {
@@ -100,7 +108,9 @@ marquee.hireme.desktop {
 }
 
 .dark h1 span,
-.dark a {
+.dark a,
+.dark #darkmode-text,
+.dark #banners-toggle {
   color: #50fa7b;
 }
 
