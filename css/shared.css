@@ -55,22 +55,6 @@ h1 span,
   color: #48730c;
 }
 
-/* TODO: remove when employed */
-.hireme {
-  background-color: #48730c;
-  color: white;
-}
-
-/* TODO: remove when employed */
-.hireme span {
-  margin: 0 0.5em;
-}
-
-/* TODO: remove when employed */
-marquee.hireme.desktop {
-  display: none;
-}
-
 .hidden {
   display: none !important;
 }
@@ -85,15 +69,6 @@ marquee.hireme.desktop {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  /* TODO: remove when employed */
-  marquee.hireme.mobile {
-    display: none;
-  }
-
-  marquee.hireme.desktop {
-    display: block;
   }
 }
 
@@ -112,10 +87,4 @@ marquee.hireme.desktop {
 .dark #darkmode-text,
 .dark #banners-toggle {
   color: #50fa7b;
-}
-
-/* TODO: remove when employed */
-.dark .hireme {
-  background-color: white;
-  color: #202124;
 }
