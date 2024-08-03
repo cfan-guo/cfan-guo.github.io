@@ -1,478 +1,520 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>see fan go 👀 | Fan Guo, software dev in 🇨🇦</title>
-    <meta
-      name="description"
-      content="Resume of Fan Guo - software engineer, tomato grower, weightlifter and cat wrangler. 🇨🇳 制造 and 🇨🇦 raised, eh"
-    />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="icon" href="favicon.ico" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      rel="noopener"
-      target="_blank"
-      href="css/shared.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      rel="noopener"
-      target="_blank"
-      href="css/resume.css"
-    />
-    <link rel="canonical" href="https://cfanguo.me/resume" />
-  </head>
-  <body>
-    <nav>
-      <a href="/">
-        <img
-          src="icons/home.gif"
-          alt="pastel pixel house from http://caz.pausedlife.com/"
-        />
-        <br />
-        go home
-      </a>
-      <div>
-        <a href="/resume">
-          <img src="icons/computer.gif" alt="pixel computer graphic" />
-          <br />
-          resume
-        </a>
-        <a href="https://blog.cfanguo.me" target="_blank">
-          <img
-            src="icons/lacroixsunflower.gif"
-            alt="pixel la croix sunflower from https://www.lejlart.com/apple.html"
-          />
-          <br />
-          blog
-        </a>
-        <a onclick="toggleTheme()">
-          <img
-            src="icons/ufo.gif"
-            alt="pixel ufo abduction from http://caz.pausedlife.com/"
-          /><br /><span id="darkmode-text">dark mode</span>
-        </a>
-      </div>
-    </nav>
-    <p id="banners-toggle">toggle banners</p>
-    <marquee behavior="alternate"> ⚠️ under construction!! 🚧 </marquee>
-    <marquee>
-      also, did you know the marquee element was deprecated in HTML5? if this
-      thing acts weird for you, can you
-      <a href="mailto:hello@cfanguo.me">let me know?</a>
-    </marquee>
-    <header>
-      <h1>Hi, I'm <span>Fan</span>! 👋</h1>
-    </header>
-    <main>
-      <article>
-        <section class="intro">
-          <p>
-            I'm not picky with tech, but I'm most familiar with React on the
-            frontend and I do appreciate Ruby's idea to "optimize for programmer
-            happiness" 💖.
-          </p>
-          <p>
-            Currently I am more interested in being an IC (individual
-            contributor), but I'm also open to team lead roles and I might
-            return to management in the future.
-          </p>
-        </section>
-        <section class="resume">
-          <ul class="controls">
-            <li id="resume-toggle">Open all</li>
-            <li><a href="resume.pdf">Download</a></li>
-          </ul>
-          <article class="experience">
-            <h2>Experience</h2>
-            <details>
-              <summary>
-                <a
-                  href="https://getjobber.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Jobber</a
-                >
-                <img src="icons/updated.gif" aria-hidden="true" alt="" />
-              </summary>
-              <div>
-                <p>
-                  OCT 2023 - PRESENT,
-                  <span class="role">Senior Software Engineer</span>
-                </p>
-                <p>STAY TUNED - CURRENTLY ONBOARDING</p>
-              </div>
-            </details>
-            <details>
-              <summary>
-                <a
-                  href="https://properly.ca"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Properly</a
-                >
-              </summary>
-              <div>
-                <p>
-                  JAN 2022 - SEP 2022,
-                  <span class="role">Software Engineer</span>
-                </p>
-                <p class="skills">
-                  Javascript, Typescript, React, Next.js, React Native, Python
-                </p>
-                <ul>
-                  <li>
-                    Proposed and led implementation of Area Landing Pages to
-                    capture location based search traffic, improving average
-                    search position by 5, clickthrough rate by 100% and
-                    impressions by 60% (Google Search Console).
-                  </li>
-                  <li>
-                    Optimised our usage of ButterCMS to fetch collection data
-                    efficiently for “Real Estate, Explained”, advocated for
-                    WriteAPI access to reduce the time for initial data entry.
-                  </li>
-                  <li>
-                    Refactored front-end code for cross-platform usability,
-                    implemented comparables section for “My Home” feature on
-                    mobile app.
-                  </li>
-                </ul>
-              </div>
-            </details>
-            <details>
-              <summary>
-                <a
-                  href="https://gobble.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Gobble Inc</a
-                >
-              </summary>
-              <div>
-                <p>
-                  AUG 2020 - DEC 2021,
-                  <span class="role">Senior Software Engineer</span>
-                </p>
-                <p class="skills">
-                  Ruby on Rails, CSS (Sass), Javascript, React, GraphQL
-                </p>
-                <ul>
-                  <li>
-                    Developed a new multistep menu approvals system and improved
-                    existing scripts to reduce weekly generation process time by
-                    25%.
-                  </li>
-                  <li>
-                    Automated weekly menu item consolidation process to save
-                    engineering, customer service and culinary effort by 75%.
-                  </li>
-                  <li>
-                    Designed and launched protein customization multiplier
-                    feature in 2021.
-                  </li>
-                </ul>
-              </div>
-            </details>
-            <details>
-              <summary>
-                <a
-                  href="https://connected.thoughtworks.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Connected (Thoughtworks Canada)</a
-                >
-              </summary>
-              <div>
-                <p>
-                  APR 2020 - AUG 2020,
-                  <span class="role">Engineering Manager</span> (3 direct
-                  reports)
-                </p>
-                <ul>
-                  <li>
-                    Pitched a hybrid cultural strategy to adapt company rituals
-                    during a low employee engagement phase and the COVID-19 WFH
-                    adjustment period.
-                  </li>
-                </ul>
-                <p>
-                  JUL 2018 - AUG 2020,
-                  <span class="role">Software Engineer</span>
-                </p>
-                <p class="skills">Ruby, Hack, Python, Javascript, React</p>
-                <ul>
-                  <li>
-                    Led team to prototype DXF viewer using React and three.js.
-                  </li>
-                  <li>
-                    Migrated data annotation to a new platform by collaborating
-                    with platform authors to create new workflow capabilities.
-                  </li>
-                  <li>
-                    Contributed to engineering and company culture through house
-                    leadership to host internal award-winning socials,
-                    microlearns and roundtables.
-                  </li>
-                </ul>
-              </div>
-            </details>
-            <details>
-              <summary>
-                <a
-                  href="https://flipp.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Flipp</a
-                >
-              </summary>
-              <div>
-                <p>
-                  MAY 2016 - AUG 2017,
-                  <span class="role">Software Engineer</span>
-                </p>
-                <p class="skills">
-                  Ruby on Rails, HTML, CSS (Sass), Javascript
-                </p>
-                <ul>
-                  <li>
-                    Built and delivered customized desktop and mobile flyer
-                    themes and dynamic content for Canadian and US retailers on
-                    Flipp’s hosted platform.
-                  </li>
-                </ul>
-              </div>
-            </details>
-          </article>
-          <article class="education">
-            <h2>Education</h2>
-            <details>
-              <summary>
-                <a
-                  href="https://www.engineering.utoronto.ca/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >University of Toronto, St. George</a
-                >
-              </summary>
-              <div>
-                <p>
-                  2013 - 2018, Bachelor of Applied Sciences in Computer
-                  Engineering
-                </p>
-                <ul>
-                  <li>
-                    CNIB Hochhausen Prize for Excellence in Accessible Design in
-                    Engineering for People who are Blind or Partially Sighted
-                    (2018)
-                  </li>
-                  <li>
-                    Certificate of Distinction for Excellence in Design Project
-                    (2018)
-                  </li>
-                  <li>
-                    Engineering Athletics Association: Julie Wilkinson Award for
-                    a graduating student in engineering for achievement in
-                    intramural athletics (2018)
-                  </li>
-                  <li>Residence don, New College Residence (2017 - 2018)</li>
-                </ul>
-              </div>
-            </details>
-          </article>
-          <article class="projects">
-            <h2>Projects</h2>
-            <details>
-              <summary>
-                PillPal: an IoT multi-pill dispenser and management tool
-              </summary>
-              <div>
-                <p>2017 - 2018, 4th Year Design Project</p>
-                <p class="skills">React, ASP.NET Core, C#</p>
-                <ul>
-                  <li>
-                    Developed and prototyped an application to improve
-                    medication adherence.
-                  </li>
-                  <li>
-                    Selected to present at the ECE Final Design Showcase and ECE
-                    4th Year and Alumni Celebration.
-                  </li>
-                </ul>
-              </div>
-            </details>
-            <details>
-              <summary>Smart Charger</summary>
-              <div>
-                <p>2016, YHack</p>
-                <p class="skills">Java (Android), Arduino</p>
-                <ul>
-                  <li>
-                    Android app to stop device charging at a user-defined
-                    percentage.
-                  </li>
-                </ul>
-              </div>
-            </details>
-          </article>
-        </section>
-        <section class="images">
-          <div id="images-toggle">Hide images</div>
-          <div class="show-images">
-            <div class="image-card">
-              <img
-                src="img/properly.webp"
-                alt="Roadside billboard for Properly, with the Scott Brothers and the text 'Feel at home while buying a home' and the url properly.ca"
-              />
-            </div>
-            <div class="image-card">
-              <img
-                src="img/gobble.webp"
-                alt="Folded up picnic blanket with the Gobble logo, sitting on cookbooks and covered in string lights"
-              />
-            </div>
-            <div class="image-card">
-              <img
-                src="img/connected.webp"
-                alt="DJ standing in front of a wall backlit with the Connected logo"
-              />
-            </div>
-            <div class="image-card">
-              <img
-                src="img/flipp.webp"
-                alt="Smiling girl holding a plate while standing in front of a backdrop interspersing a Canadian maple leaf and the Flipp logo, wearing a headband prop with Canadian flag antennae"
-              />
-            </div>
-            <div class="image-card">
-              <img
-                src="img/uoft.webp"
-                alt="Students in graduation robes posing for a group photo on Kings College Circle, University of Toronto"
-              />
-            </div>
-            <div class="image-card">
-              <img
-                src="img/pillpal.webp"
-                alt="Four students smiling and standing with a project board titled 'An IOT Multi-Pill Dispenser and Management Tool'"
-              />
-            </div>
-            <div class="image-card">
-              <img
-                src="img/smarger.webp"
-                alt="Two students at a Hackathon standing with an electronic device (Arduino, breadboard, wires), holding a phone with an app"
-              />
-            </div>
-          </div>
-        </section>
-      </article>
-      <hr />
-      <section>
-        <h1>Links of interest</h1>
-        <p>I'll style these later (famous last words)</p>
-        <ul>
-          <li><a href="/resume">Resume</a></li>
-          <li><a href="https://blog.cfanguo.me">Blog</a></li>
-          <li><a href="mailto:hello@cfanguo.me">Email</a></li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/cfanguo/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >LinkedIn</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://github.com/cfan-guo/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >GitHub</a
-            >
-          </li>
-        </ul>
-        <p>
-          Navigation pixel art via
-          <a
-            href="http://caz.pausedlife.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Catch a Star</a
-          >
-          and
-          <a
-            href="https://www.lejlart.com/apple.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Appledust</a
-          >. "Updated" and "New" pixel deco by
-          <a
-            href="http://whimsical.heartette.net"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Whimsical</a
-          >
-          . Cursor effect by
-          <a
-            href="https://tholman.com/cursor-effects/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Tim Holman</a
-          >, and homepage photo shot by the amazing
-          <a
-            href="https://sadderzawdeh.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Arman Sadrzadeh</a
-          >.
-        </p>
-        <p><small>Last updated Oct 16, 2023</small></p>
-      </section>
-    </main>
-  </body>
-  <script src="js/darkmode.js"></script>
-  <script src="js/headache.js"></script>
-  <script type="module">
-    import { bubbleCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+	<head>
+		<title>see fan go 👀 | Fan Guo, software dev in 🇨🇦</title>
+		<meta
+			name="description"
+			content="Resume of Fan Guo - software engineer, tomato grower, weightlifter and cat wrangler. 🇨🇳 制造 and 🇨🇦 raised, eh"
+		/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<link rel="icon" href="favicon.ico" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			rel="noopener"
+			target="_blank"
+			href="css/shared.css"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			rel="noopener"
+			target="_blank"
+			href="css/resume.css"
+		/>
+		<link rel="canonical" href="https://cfanguo.me/resume" />
+	</head>
+	<body>
+		<nav>
+			<a href="/">
+				<img
+					src="icons/home.gif"
+					alt="pastel pixel house from http://caz.pausedlife.com/"
+				/>
+				<br />
+				go home
+			</a>
+			<div>
+				<a href="/resume">
+					<img src="icons/computer.gif" alt="pixel computer graphic" />
+					<br />
+					resume
+				</a>
+				<a href="https://blog.cfanguo.me" target="_blank">
+					<img
+						src="icons/lacroixsunflower.gif"
+						alt="pixel la croix sunflower from https://www.lejlart.com/apple.html"
+					/>
+					<br />
+					blog
+				</a>
+				<a onclick="toggleTheme()">
+					<img
+						src="icons/ufo.gif"
+						alt="pixel ufo abduction from http://caz.pausedlife.com/"
+					/><br /><span id="darkmode-text">dark mode</span>
+				</a>
+			</div>
+		</nav>
+		<p id="banners-toggle">toggle banners</p>
+		<marquee behavior="alternate"> ⚠️ under construction!! 🚧 </marquee>
+		<marquee>
+			also, did you know the marquee element was deprecated in HTML5? if this
+			thing acts weird for you, can you
+			<a href="mailto:hello@cfanguo.me">let me know?</a>
+		</marquee>
+		<header>
+			<h1>Hi, I'm <span>Fan</span>! 👋</h1>
+		</header>
+		<main>
+			<article>
+				<section class="intro">
+					<p>
+						Most of my experiences feature Ruby (Rails) on the backend, multiple
+						flavours of React on the frontend, and GraphQL for all the fun data
+						and API stuff. That said, I can pick up anything you want to throw
+						at me!
+					</p>
+					<p>
+						Currently I am more interested in being an IC (individual
+						contributor) who gets to work on challenging technical problems and
+						mentor junior engineers. I'm also open to team lead roles. I did
+						management for a bit, but have no plans on doing that right now.
+					</p>
+				</section>
+				<section class="resume">
+					<ul class="controls">
+						<li id="resume-toggle">Open all</li>
+						<li><a href="resume.pdf">Download</a></li>
+					</ul>
+					<article class="experience">
+						<h2>Experience</h2>
+						<details>
+							<summary>
+								Jobber
+								<img src="icons/updated.gif" aria-hidden="true" alt="" />
+							</summary>
+							<div>
+								<p>
+									<a
+										href="https://getjobber.com"
+										target="_blank"
+										rel="noopener noreferrer"
+										>getjobber.com</a
+									>
+								</p>
+								<p>
+									OCT 2023 - PRESENT,
+									<span class="role">Senior Software Engineer</span>
+								</p>
+								<p class="skills">
+									Ruby on Rails, GraphQL, Typescript, React, Remix
+								</p>
+								<ul>
+									<li>
+										Led the technical investigation and implemention of an
+										experimental feature. Managed communications with multiple
+										external teams. Created and managed all tickets and work
+										tracking, working closely with product and design.
+									</li>
+									<li>
+										Mentored and supported junior engineers through paired
+										programming, code reviews, constructive feedback sessions
+										and modelling developer best practices.
+									</li>
+									<li>
+										Modified existing processes to improve efficiency and reduce
+										meeting times, increasing team velocity per sprint.
+										Introduced triage system to improve response times to
+										external requests and reduce knowledge silos on the team.
+									</li>
+									<li>
+										Acted as deputy scrum master, leading Agile rituals such as
+										backlog grooming, sprint planning, and daily standups in the
+										absence of the scrum master.
+									</li>
+								</ul>
+							</div>
+						</details>
+						<details>
+							<summary>Properly (acquired by Pine)</summary>
+							<div>
+								<p>
+									<a
+										href="https://properly.ca"
+										target="_blank"
+										rel="noopener noreferrer"
+										>properly.ca</a
+									>
+								</p>
+								<p>
+									JAN 2022 - SEP 2022,
+									<span class="role">Software Engineer</span>
+								</p>
+								<p class="skills">
+									Javascript, Typescript, React, Next.js, React Native
+								</p>
+								<ul>
+									<li>
+										Proposed and led implementation of Area Landing Pages to
+										capture location based search traffic, improving average
+										search position by 5, clickthrough rate by 100% and
+										impressions by 60% (Google Search Console).
+									</li>
+									<li>
+										Optimised our usage of ButterCMS to fetch collection data
+										efficiently for “Real Estate, Explained”, advocated for
+										WriteAPI access to reduce the time for initial data entry.
+									</li>
+									<li>
+										Refactored front-end code for cross-platform usability,
+										implemented comparables section for “My Home” feature on
+										mobile app.
+									</li>
+								</ul>
+							</div>
+						</details>
+						<details>
+							<summary>Gobble</summary>
+							<div>
+								<p>
+									<a
+										href="https://gobble.com"
+										target="_blank"
+										rel="noopener noreferrer"
+										>gobble.com</a
+									>
+								</p>
+								<p>
+									AUG 2020 - DEC 2021,
+									<span class="role">Senior Software Engineer</span>
+								</p>
+								<p class="skills">Ruby on Rails, Javascript, React, GraphQL</p>
+								<ul>
+									<li>
+										Developed a new multistep menu approvals system and improved
+										existing scripts to reduce weekly generation process time by
+										25%.
+									</li>
+									<li>
+										Automated weekly menu item consolidation process to save
+										engineering, customer service and culinary effort by 75%.
+									</li>
+									<li>
+										Designed and launched protein customization multiplier
+										feature in 2021.
+									</li>
+								</ul>
+							</div>
+						</details>
+						<details>
+							<summary>Connected (acquired by Thoughtworks)</summary>
+							<div>
+								<p>
+									<a
+										href="https://connected.thoughtworks.com"
+										target="_blank"
+										rel="noopener noreferrer"
+										>thoughtworks.com</a
+									>
+								</p>
+								<p>
+									APR 2020 - AUG 2020,
+									<span class="role">Engineering Manager</span> (3 direct
+									reports)
+								</p>
+								<ul>
+									<li>
+										Pitched a hybrid cultural strategy to adapt company rituals
+										during a low employee engagement phase and the COVID-19 WFH
+										adjustment period.
+									</li>
+								</ul>
+								<p>
+									JUL 2018 - AUG 2020,
+									<span class="role">Software Engineer</span>
+								</p>
+								<p class="skills">Ruby, Hack, Python, Javascript, React</p>
+								<ul>
+									<li>
+										Led team to prototype DXF viewer using React and three.js.
+									</li>
+									<li>
+										Migrated data annotation to a new platform by collaborating
+										with platform authors to create new workflow capabilities.
+									</li>
+									<li>
+										Contributed to engineering and company culture through house
+										leadership to host internal award-winning socials,
+										microlearns and roundtables.
+									</li>
+								</ul>
+							</div>
+						</details>
+						<details>
+							<summary>Flipp</summary>
+							<div>
+								<p>
+									<a
+										href="https://flipp.com"
+										target="_blank"
+										rel="noopener noreferrer"
+										>flipp.com</a
+									>
+								</p>
+								<p>
+									MAY 2016 - AUG 2017,
+									<span class="role">Software Engineer</span>
+								</p>
+								<p class="skills">
+									Ruby on Rails, HTML, CSS (Sass), Javascript
+								</p>
+								<ul>
+									<li>
+										Built and delivered customized desktop and mobile flyer
+										themes and dynamic content for Canadian and US retailers on
+										Flipp’s hosted platform.
+									</li>
+								</ul>
+							</div>
+						</details>
+					</article>
+					<article class="education">
+						<h2>Education</h2>
+						<details>
+							<summary>University of Toronto, St. George</summary>
+							<div>
+								<p>
+									<a
+										href="https://www.engineering.utoronto.ca/"
+										target="_blank"
+										rel="noopener noreferrer"
+										>engineering.utoronto.ca</a
+									>
+								</p>
+								<p>
+									2013 - 2018, Bachelor of Applied Sciences in Computer
+									Engineering
+								</p>
+								<ul>
+									<li>
+										CNIB Hochhausen Prize for Excellence in Accessible Design in
+										Engineering for People who are Blind or Partially Sighted
+										(2018)
+									</li>
+									<li>
+										Certificate of Distinction for Excellence in Design Project
+										(2018)
+									</li>
+									<li>
+										Engineering Athletics Association: Julie Wilkinson Award for
+										a graduating student in engineering for achievement in
+										intramural athletics (2018)
+									</li>
+									<li>Residence don, New College Residence (2017 - 2018)</li>
+								</ul>
+							</div>
+						</details>
+					</article>
+					<article class="projects">
+						<h2>Projects</h2>
+						<details>
+							<summary>
+								PillPal: an IoT multi-pill dispenser and management tool
+							</summary>
+							<div>
+								<p>2017 - 2018, 4th Year Design Project</p>
+								<p class="skills">React, ASP.NET Core, C#</p>
+								<ul>
+									<li>
+										Developed and prototyped an application to improve
+										medication adherence.
+									</li>
+									<li>
+										Selected to present at the ECE Final Design Showcase and ECE
+										4th Year and Alumni Celebration.
+									</li>
+								</ul>
+							</div>
+						</details>
+						<details>
+							<summary>Smart Charger</summary>
+							<div>
+								<p>2016, YHack</p>
+								<p class="skills">Java (Android), Arduino</p>
+								<ul>
+									<li>
+										Android app to stop device charging at a user-defined
+										percentage.
+									</li>
+								</ul>
+							</div>
+						</details>
+					</article>
+				</section>
+				<section class="images">
+					<div id="images-toggle">Hide images</div>
+					<div class="show-images">
+						<div class="image-card">
+							<img
+								src="img/properly.webp"
+								alt="Roadside billboard for Properly, with the Scott Brothers and the text 'Feel at home while buying a home' and the url properly.ca"
+							/>
+						</div>
+						<div class="image-card">
+							<img
+								src="img/gobble.webp"
+								alt="Folded up picnic blanket with the Gobble logo, sitting on cookbooks and covered in string lights"
+							/>
+						</div>
+						<div class="image-card">
+							<img
+								src="img/connected.webp"
+								alt="DJ standing in front of a wall backlit with the Connected logo"
+							/>
+						</div>
+						<div class="image-card">
+							<img
+								src="img/flipp.webp"
+								alt="Smiling girl holding a plate while standing in front of a backdrop interspersing a Canadian maple leaf and the Flipp logo, wearing a headband prop with Canadian flag antennae"
+							/>
+						</div>
+						<div class="image-card">
+							<img
+								src="img/uoft.webp"
+								alt="Students in graduation robes posing for a group photo on Kings College Circle, University of Toronto"
+							/>
+						</div>
+						<div class="image-card">
+							<img
+								src="img/pillpal.webp"
+								alt="Four students smiling and standing with a project board titled 'An IOT Multi-Pill Dispenser and Management Tool'"
+							/>
+						</div>
+						<div class="image-card">
+							<img
+								src="img/smarger.webp"
+								alt="Two students at a Hackathon standing with an electronic device (Arduino, breadboard, wires), holding a phone with an app"
+							/>
+						</div>
+					</div>
+				</section>
+			</article>
+			<hr />
+			<section>
+				<h1>Links of interest</h1>
+				<p>I'll style these later (famous last words)</p>
+				<ul>
+					<li><a href="/resume">Resume</a></li>
+					<li><a href="https://blog.cfanguo.me">Blog</a></li>
+					<li><a href="mailto:hello@cfanguo.me">Email</a></li>
+					<li>
+						<a
+							href="https://www.linkedin.com/in/cfanguo/"
+							target="_blank"
+							rel="noopener noreferrer"
+							>LinkedIn</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://github.com/cfan-guo/"
+							target="_blank"
+							rel="noopener noreferrer"
+							>GitHub</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://www.instagram.com/cfan.guo"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Instagram</a
+						>
+					</li>
+				</ul>
+				<p>
+					Navigation pixel art via
+					<a
+						href="http://caz.pausedlife.com/"
+						target="_blank"
+						rel="noopener noreferrer"
+						>Catch a Star</a
+					>
+					and
+					<a
+						href="https://www.lejlart.com/apple.html"
+						target="_blank"
+						rel="noopener noreferrer"
+						>Appledust</a
+					>. "Updated" and "New" pixel deco by
+					<a
+						href="http://whimsical.heartette.net"
+						target="_blank"
+						rel="noopener noreferrer"
+						>Whimsical</a
+					>
+					. Cursor effect by
+					<a
+						href="https://tholman.com/cursor-effects/"
+						target="_blank"
+						rel="noopener noreferrer"
+						>Tim Holman</a
+					>, and homepage photo shot by the amazing
+					<a
+						href="https://sadderzawdeh.com/"
+						target="_blank"
+						rel="noopener noreferrer"
+						>Arman Sadrzadeh</a
+					>.
+				</p>
+				<p><small>Last updated Aug 3, 2024</small></p>
+			</section>
+		</main>
+	</body>
+	<script src="js/darkmode.js"></script>
+	<script src="js/headache.js"></script>
+	<script type="module">
+		import { bubbleCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
 
-    new bubbleCursor();
-  </script>
-  <script>
-    function toggleNavigation(element, open) {
-      if (open) {
-        element.setAttribute("open", open);
-      } else {
-        element.removeAttribute("open");
-      }
-    }
+		new bubbleCursor();
+	</script>
+	<script>
+		function toggleNavigation(element, open) {
+			if (open) {
+				element.setAttribute("open", open);
+			} else {
+				element.removeAttribute("open");
+			}
+		}
 
-    function toggleResumeText(text) {
-      if (text === "Open all") {
-        return "Close all";
-      } else {
-        return "Open all";
-      }
-    }
+		function toggleResumeText(text) {
+			if (text === "Open all") {
+				return "Close all";
+			} else {
+				return "Open all";
+			}
+		}
 
-    function toggleImageText(text) {
-      if (text === "Hide images") {
-        return "Show images";
-      } else {
-        return "Hide images";
-      }
-    }
+		function toggleImageText(text) {
+			if (text === "Hide images") {
+				return "Show images";
+			} else {
+				return "Hide images";
+			}
+		}
 
-    document.getElementById("resume-toggle").onclick = function () {
-      this.innerHTML = toggleResumeText(this.innerHTML);
-      let open = this.innerHTML === "Close all";
-      Array.from(document.getElementsByTagName("details")).forEach((el) =>
-        toggleNavigation(el, open)
-      );
-    };
+		document.getElementById("resume-toggle").onclick = function () {
+			this.innerHTML = toggleResumeText(this.innerHTML);
+			let open = this.innerHTML === "Close all";
+			Array.from(document.getElementsByTagName("details")).forEach(el =>
+				toggleNavigation(el, open)
+			);
+		};
 
-    document.getElementById("images-toggle").onclick = function () {
-      this.innerHTML = toggleImageText(this.innerHTML);
-      document.querySelector(".show-images").classList.toggle("hide-images");
-    };
-  </script>
+		document.getElementById("images-toggle").onclick = function () {
+			this.innerHTML = toggleImageText(this.innerHTML);
+			document.querySelector(".show-images").classList.toggle("hide-images");
+		};
+	</script>
 </html>
