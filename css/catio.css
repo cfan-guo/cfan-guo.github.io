@@ -1,0 +1,23 @@
+.catio {
+	display: flex;
+	flex-direction: column;
+}
+
+.catio img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+	.catio {
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.catio img {
+		height: 300px;
+		object-fit: contain;
+		margin-bottom: 0;
+	}
+}
