@@ -20,4 +20,12 @@
 		object-fit: contain;
 		margin-bottom: 0;
 	}
+
+	.catio.sketchup img {
+		height: 400px;
+	}
+
+	.catio.trucker img {
+		height: 500px;
+	}
 }
